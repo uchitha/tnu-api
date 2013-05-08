@@ -1,0 +1,46 @@
+﻿@model TnuBaseApp.Controllers.MailObject
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div id="body">
+
+    <section class="main-content content-wrapper">
+        <div style="padding-left: 100px">
+            @using (Html.BeginForm("Send","Mail",FormMethod.Post))
+            {
+                <fieldset>
+                    <legend>Send Mail</legend>
+                     <div class="editor-label">
+                         @Html.LabelFor(model => model.From)
+                    </div>
+                    <div class="editor-field">
+                        @Html.TextBoxFor(model => model.From)
+                    </div>
+                     <div class="editor-label">
+                         @Html.LabelFor(model => model.Subject)
+                    </div>
+                    <div class="editor-field">
+                        @Html.TextBoxFor(model => model.Subject)
+                    </div>
+                     <div class="editor-label">
+                         @Html.LabelFor(model => model.MessageText)
+                    </div>
+                    <div class="editor-field">
+                        @Html.TextAreaFor(model => model.MessageText)
+                    </div>
+
+                </fieldset>
+                
+                <input type="submit" value="Send Mail" />
+            }
+        </div>
+    </section>
+
+    <footer>
+       <span>@Model.SendStatus</span>
+    </footer>
+
+
+</div>

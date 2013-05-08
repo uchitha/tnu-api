@@ -1,0 +1,52 @@
+﻿@model TnuBaseApp.Models.Order
+
+@{
+    Layout = "~/Views/Shared/_LayoutOrder.cshtml";
+}
+
+<div id="body">
+
+    <section class="main-content content-wrapper">
+        <div style="padding-left: 100px">
+            @using (Html.BeginForm("SendOrder","Mail",FormMethod.Post))
+            {
+                <fieldset>
+                    <legend>Send Mail</legend>
+                     <div class="editor-label">
+                         @Html.Label("Name")
+                    </div>
+                    <div class="editor-field">
+                        @Html.TextBoxFor(model => model.CustomerName)
+                    </div>
+                    <div class="editor-label">
+                         @Html.Label("Phone")
+                    </div>
+                    <div class="editor-field">
+                        @Html.TextBoxFor(model => model.CustomerPhoneNumber)
+                    </div>
+                     <div class="editor-label">
+                         @Html.Label("Address")
+                    </div>
+                    <div class="editor-field">
+                        @Html.TextAreaFor(model => model.CustomerAddress)
+                    </div>
+                     <div class="editor-label">
+                         @Html.Label("Quantity")
+                    </div>
+                    <div class="editor-field">
+                        @Html.DropDownListFor(model => model.NumberOfItems,Model.ItemQuantityList)
+                    </div>
+
+                </fieldset>
+                
+                <input type="submit" value="Place Order" />
+            }
+        </div>
+    </section>
+
+    <footer>
+       <span>@Model.OrderStatus</span>
+    </footer>
+
+
+</div>
