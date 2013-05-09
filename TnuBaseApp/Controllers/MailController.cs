@@ -73,6 +73,7 @@ namespace TnuBaseApp.Controllers
             request.Resource = "{domain}/messages";
             
             request.AddParameter("to", "uchitha.r@gmail.com");
+			request.AddParameter("to", "rexturf@bigpond.com");
             //request.AddParameter("to", "chris.ranasinghe@bhpbilliton.com");
 
             request.AddParameter("from", message.From);
