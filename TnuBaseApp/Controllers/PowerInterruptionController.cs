@@ -52,8 +52,12 @@ namespace TnuBaseApp.Controllers
                     locationList.Add(location);
                 }
             }
+            var result = new
+            {
+                result = locationList
+            };
 
-            return JsonConvert.SerializeObject(locationList);
+            return JsonConvert.SerializeObject(result,Formatting.Indented);
         }
 
         private string LoadPage()
