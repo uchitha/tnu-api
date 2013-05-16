@@ -22,6 +22,9 @@ namespace TnuBaseApp
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            FormatterConfig.RegisterFormatters(GlobalConfiguration.Configuration.Formatters);
         }
+
+
     }
 }
