@@ -13,7 +13,7 @@ namespace TnuBaseApp.Controllers
     public class PowerInterruptionController : ApiController
     {
         //Returns Json
-        public string Get(string id)
+        public IQueryable<Location> Get(string id)
         {
             var piScraper = new WpPiScraper(id);
             return piScraper.GetInteruptionData();
@@ -30,7 +30,7 @@ namespace TnuBaseApp.Controllers
             _url = string.Format(_url, location);
         }
 
-        public string GetInteruptionData()
+        public IQueryable<Location> GetInteruptionData()
         {
             var doc = new HtmlDocument();
             doc.LoadHtml(LoadPage());
@@ -52,12 +52,8 @@ namespace TnuBaseApp.Controllers
                     locationList.Add(location);
                 }
             }
-            var result = new
-            {
-                result = locationList
-            };
-
-            return JsonConvert.SerializeObject(result,Formatting.Indented);
+           
+            return locationList.AsQueryable();
         }
 
         private string LoadPage()
@@ -76,6 +72,7 @@ namespace TnuBaseApp.Controllers
 
     }
 
+   
     public class Location
     {
         private readonly string NoInterruptionText = "No known interruptions";
