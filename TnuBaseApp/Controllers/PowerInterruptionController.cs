@@ -16,9 +16,9 @@ namespace TnuBaseApp.Controllers
         public IQueryable<Location> Get(string id)
         {
             var piScraper = new WpPiScraper(id);
-            return piScraper.GetInteruptionData();
+            return piScraper.GetInteruptionData().OrderByDescending(l => l.IsInterrupted);
         }
-      
+
     }
 
     public class WpPiScraper
@@ -44,15 +44,17 @@ namespace TnuBaseApp.Controllers
                 foreach (var interuptionInfoItem in details)
                 {
                     var resultLine = interuptionInfoItem.Descendants().Where(n => n.Name.Equals("td")).ToList();
+                    var locationString = resultLine[0].InnerHtml;
                     var location = new Location()
                     {
-                        Name = resultLine[0].InnerHtml,
+                        Name = locationString.Substring(0, locationString.IndexOf("(") - 1),
+                        PostCode = locationString.Substring(locationString.IndexOf("(") + 1, 4),
                         Details = resultLine[1].InnerHtml,
                     };
                     locationList.Add(location);
                 }
             }
-           
+
             return locationList.AsQueryable();
         }
 
@@ -72,13 +74,41 @@ namespace TnuBaseApp.Controllers
 
     }
 
-   
+
     public class Location
     {
         private readonly string NoInterruptionText = "No known interruptions";
 
         public string Name { get; set; }
+        public string PostCode { get; set; }
         public string Details { get; set; }
+
+        #region Derived Properties
+
+        public string Summary
+        {
+            get
+            {
+                return Details.ToUpperInvariant().Equals(NoInterruptionText.ToUpperInvariant()) ? "No Interruptions" : Details;
+
+            }
+        }
+        public DateTime RestorationTime
+        {
+            get
+            {
+                return Details.ToUpperInvariant().Equals(NoInterruptionText.ToUpperInvariant()) ? DateTime.MinValue : GetRestorationTime(Details);
+            }
+        }
         public bool IsInterrupted { get { return !Details.ToUpperInvariant().Equals(NoInterruptionText.ToUpperInvariant()); } }
+
+        #endregion
+
+
+        private DateTime GetRestorationTime(string details)
+        {
+            return DateTime.Parse(details.Split(':')[1]); //Expected Restoration : 20/05/2013 13:00
+        }
     }
+
 }
