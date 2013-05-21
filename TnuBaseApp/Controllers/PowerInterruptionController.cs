@@ -6,6 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Text;
 using System.Web.Http;
 
 namespace TnuBaseApp.Controllers
@@ -17,6 +18,7 @@ namespace TnuBaseApp.Controllers
         {
             var piScraper = new WpPiScraper(id);
             return piScraper.GetInteruptionData().OrderByDescending(l => l.IsInterrupted);
+           
         }
 
     }
@@ -24,10 +26,13 @@ namespace TnuBaseApp.Controllers
     public class WpPiScraper
     {
         public readonly string _url = "http://www.westernpower.com.au/online/pii/?location={0}";
+        private bool IsPostCodeSearch;
 
         public WpPiScraper(string location)
         {
             _url = string.Format(_url, location);
+            int postCode = 0;
+            IsPostCodeSearch = int.TryParse(location, out postCode);
         }
 
         public IQueryable<Location> GetInteruptionData()
@@ -51,6 +56,15 @@ namespace TnuBaseApp.Controllers
                         PostCode = locationString.Substring(locationString.IndexOf("(") + 1, 4),
                         Details = resultLine[1].InnerHtml,
                     };
+                    if (!IsPostCodeSearch)
+                    {
+                        var nameWithPostCode = new StringBuilder();
+                        nameWithPostCode.Append(location.Name);
+                        nameWithPostCode.Append(" (");
+                        nameWithPostCode.Append(location.PostCode);
+                        nameWithPostCode.Append(")");
+                        location.Name = nameWithPostCode.ToString();
+                    }
                     locationList.Add(location);
                 }
             }
@@ -93,11 +107,11 @@ namespace TnuBaseApp.Controllers
 
             }
         }
-        public DateTime RestorationTime
+        public string RestorationTime
         {
             get
             {
-                return Details.ToUpperInvariant().Equals(NoInterruptionText.ToUpperInvariant()) ? DateTime.MinValue : GetRestorationTime(Details);
+                return Details.ToUpperInvariant().Equals(NoInterruptionText.ToUpperInvariant()) ? "N/A": GetRestorationTime(Details);
             }
         }
         public bool IsInterrupted { get { return !Details.ToUpperInvariant().Equals(NoInterruptionText.ToUpperInvariant()); } }
@@ -105,9 +119,9 @@ namespace TnuBaseApp.Controllers
         #endregion
 
 
-        private DateTime GetRestorationTime(string details)
+        private string GetRestorationTime(string details)
         {
-            return DateTime.Parse(details.Split(':')[1]); //Expected Restoration : 20/05/2013 13:00
+            return DateTime.Parse(details.Split(':')[1]).ToString("dd/mm/yyyy HH:MM"); //Expected Restoration : 20/05/2013 13:00
         }
     }
 

@@ -3,25 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 2012 for Web
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TnuBaseApp", "TnuBaseApp\TnuBaseApp.csproj", "{95BBF098-A4DC-46B0-A8C3-01F17E1AF2B0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PerthPi_Html5", "PerthPi_Html5", "{3D4749DF-6287-4BE6-9605-FA389FDD2D16}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PerthPi-Html5", "PerthPi-Html5", "{90A65EC1-0FF8-41E4-9945-9F2A9AA37995}"
 	ProjectSection(SolutionItems) = preProject
-		..\power-interrupt-html5\index.htm = ..\power-interrupt-html5\index.htm
+		..\PerthPi-Html5\index.htm = ..\PerthPi-Html5\index.htm
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{1797D48F-6809-4F0F-9D4B-9EBAC9BC1E55}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{4CC50766-F496-410E-887B-A7D25083C390}"
 	ProjectSection(SolutionItems) = preProject
-		..\power-interrupt-html5\css\tolito-1.0.4.css = ..\power-interrupt-html5\css\tolito-1.0.4.css
+		..\PerthPi-Html5\css\tolito-1.0.4.css = ..\PerthPi-Html5\css\tolito-1.0.4.css
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{C2A7B6C9-8126-4845-A3A6-79322CEDB6E4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{8BFBF0F5-944C-4A47-9AD5-9BDCA150FB48}"
 	ProjectSection(SolutionItems) = preProject
-		..\power-interrupt-html5\js\mustache.js = ..\power-interrupt-html5\js\mustache.js
-		..\power-interrupt-html5\js\tolito-1.0.4.js = ..\power-interrupt-html5\js\tolito-1.0.4.js
+		..\PerthPi-Html5\js\mustache.js = ..\PerthPi-Html5\js\mustache.js
+		..\PerthPi-Html5\js\tolito-1.0.4.js = ..\PerthPi-Html5\js\tolito-1.0.4.js
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{2B4F5072-53E7-4A17-99D6-4EA6F8C05187}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{0590FC7E-E25A-4690-92AB-B448C6E599EA}"
 	ProjectSection(SolutionItems) = preProject
-		..\power-interrupt-html5\images\indefinite-bg.gif = ..\power-interrupt-html5\images\indefinite-bg.gif
+		..\PerthPi-Html5\images\indefinite-bg.gif = ..\PerthPi-Html5\images\indefinite-bg.gif
 	EndProjectSection
 EndProject
 Global
@@ -39,8 +39,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{1797D48F-6809-4F0F-9D4B-9EBAC9BC1E55} = {3D4749DF-6287-4BE6-9605-FA389FDD2D16}
-		{C2A7B6C9-8126-4845-A3A6-79322CEDB6E4} = {3D4749DF-6287-4BE6-9605-FA389FDD2D16}
-		{2B4F5072-53E7-4A17-99D6-4EA6F8C05187} = {3D4749DF-6287-4BE6-9605-FA389FDD2D16}
+		{4CC50766-F496-410E-887B-A7D25083C390} = {90A65EC1-0FF8-41E4-9945-9F2A9AA37995}
+		{8BFBF0F5-944C-4A47-9AD5-9BDCA150FB48} = {90A65EC1-0FF8-41E4-9945-9F2A9AA37995}
+		{0590FC7E-E25A-4690-92AB-B448C6E599EA} = {90A65EC1-0FF8-41E4-9945-9F2A9AA37995}
 	EndGlobalSection
 EndGlobal
