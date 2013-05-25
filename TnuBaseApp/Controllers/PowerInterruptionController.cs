@@ -103,7 +103,7 @@ namespace TnuBaseApp.Controllers
         {
             get
             {
-                return Details.ToUpperInvariant().Equals(NoInterruptionText.ToUpperInvariant()) ? "No Interruptions" : Details;
+                return Details.ToUpperInvariant().Equals(NoInterruptionText.ToUpperInvariant()) ? "No Interruptions" : "Service Down";
 
             }
         }
@@ -121,7 +121,7 @@ namespace TnuBaseApp.Controllers
 
         private string GetRestorationTime(string details)
         {
-            return DateTime.Parse(details.Split(':')[1]).ToString("dd/mm/yyyy HH:MM"); //Expected Restoration : 20/05/2013 13:00
+            return DateTime.Parse(details.Substring(details.IndexOf(':') + 1).Trim()).ToString("dd/MM/yyyy HH:mm"); //Expected Restoration : 20/05/2013 13:00
         }
     }
 

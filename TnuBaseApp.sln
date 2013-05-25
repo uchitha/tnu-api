@@ -15,6 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{4CC50766-F49
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{8BFBF0F5-944C-4A47-9AD5-9BDCA150FB48}"
 	ProjectSection(SolutionItems) = preProject
+		..\PerthPi-Html5\js\jqm.autocomplete-jsonp-1.5.1.js = ..\PerthPi-Html5\js\jqm.autocomplete-jsonp-1.5.1.js
 		..\PerthPi-Html5\js\mustache.js = ..\PerthPi-Html5\js\mustache.js
 		..\PerthPi-Html5\js\tolito-1.0.4.js = ..\PerthPi-Html5\js\tolito-1.0.4.js
 	EndProjectSection
