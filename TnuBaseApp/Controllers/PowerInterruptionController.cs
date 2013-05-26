@@ -56,14 +56,9 @@ namespace TnuBaseApp.Controllers
                         PostCode = locationString.Substring(locationString.IndexOf("(") + 1, 4),
                         Details = resultLine[1].InnerHtml,
                     };
-                    if (!IsPostCodeSearch)
+                    if (IsPostCodeSearch)
                     {
-                        var nameWithPostCode = new StringBuilder();
-                        nameWithPostCode.Append(location.Name);
-                        nameWithPostCode.Append(" (");
-                        nameWithPostCode.Append(location.PostCode);
-                        nameWithPostCode.Append(")");
-                        location.Name = nameWithPostCode.ToString();
+                        location.PostCode = string.Empty;
                     }
                     locationList.Add(location);
                 }
