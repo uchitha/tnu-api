@@ -1,0 +1,18 @@
+[
+  {
+    "Name": "CRAIGIE",
+    "PostCode": "6025",
+    "Details": "Estimated Restoration: 08/06/2013 02:00",
+    "Summary": "Service Down",
+    "RestorationTime": "08/06/2013 02:00",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "WALKAWAY",
+    "PostCode": "6528",
+    "Details": "Estimated Restoration: Unknown",
+    "Summary": "Service Down",
+    "RestorationTime": "Unknown",
+    "IsInterrupted": true
+  }
+]

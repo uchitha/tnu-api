@@ -56,10 +56,6 @@ namespace TnuBaseApp.Controllers
                         PostCode = locationString.Substring(locationString.IndexOf("(") + 1, 4),
                         Details = resultLine[1].InnerHtml,
                     };
-                    if (IsPostCodeSearch)
-                    {
-                        location.PostCode = string.Empty;
-                    }
                     locationList.Add(location);
                 }
             }
@@ -116,7 +112,13 @@ namespace TnuBaseApp.Controllers
 
         private string GetRestorationTime(string details)
         {
-            return DateTime.Parse(details.Substring(details.IndexOf(':') + 1).Trim()).ToString("dd/MM/yyyy HH:mm"); //Expected Restoration : 20/05/2013 13:00
+            var restoration = details.Substring(details.IndexOf(':') + 1).Trim(); //Expected Restoration : 20/05/2013 13:00 
+            DateTime restoreTime;
+            if (DateTime.TryParse(restoration, out restoreTime))
+            {
+                return restoreTime.ToString("dd/MM/yyyy HH:mm");
+            }
+            return restoration;
         }
     }
 

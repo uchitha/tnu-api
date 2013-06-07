@@ -2,6 +2,7 @@
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -68,6 +69,7 @@ namespace TnuBaseApp.Controllers
             return locationList;
         }
 
+
         public string GetRaw(string id)
         {
             var client = new HttpClient();
@@ -89,6 +91,7 @@ namespace TnuBaseApp.Controllers
             task.Wait();
             return task.Result;
         }
+
     }
 
     public class AusPostLocation

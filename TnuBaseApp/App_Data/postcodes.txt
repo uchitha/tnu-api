@@ -1,0 +1,1550 @@
+[
+  {
+    "PostCode": "6000",
+    "Suburbs": "[\"CITY DELIVERY CENTRE\",\"PERTH\",\"PERTH GPO\"]"
+  },
+  {
+    "PostCode": "6003",
+    "Suburbs": "[\"HIGHGATE\",\"NORTHBRIDGE\"]"
+  },
+  {
+    "PostCode": "6004",
+    "Suburbs": "[\"EAST PERTH\"]"
+  },
+  {
+    "PostCode": "6005",
+    "Suburbs": "[\"KINGS PARK\",\"WEST PERTH\"]"
+  },
+  {
+    "PostCode": "6006",
+    "Suburbs": "[\"NORTH PERTH\"]"
+  },
+  {
+    "PostCode": "6007",
+    "Suburbs": "[\"LEEDERVILLE\",\"WEST LEEDERVILLE\"]"
+  },
+  {
+    "PostCode": "6008",
+    "Suburbs": "[\"DAGLISH\",\"SHENTON PARK\",\"SUBIACO\",\"SUBIACO EAST\"]"
+  },
+  {
+    "PostCode": "6009",
+    "Suburbs": "[\"BROADWAY NEDLANDS\",\"CRAWLEY\",\"DALKEITH\",\"NEDLANDS\",\"NEDLANDS DC\"]"
+  },
+  {
+    "PostCode": "6010",
+    "Suburbs": "[\"CLAREMONT\",\"CLAREMONT NORTH\",\"KARRAKATTA\",\"MOUNT CLAREMONT\",\"SWANBOURNE\"]"
+  },
+  {
+    "PostCode": "6011",
+    "Suburbs": "[\"COTTESLOE\",\"PEPPERMINT GROVE\"]"
+  },
+  {
+    "PostCode": "6012",
+    "Suburbs": "[\"MOSMAN PARK\"]"
+  },
+  {
+    "PostCode": "6014",
+    "Suburbs": "[\"FLOREAT\",\"JOLIMONT\",\"WEMBLEY\"]"
+  },
+  {
+    "PostCode": "6015",
+    "Suburbs": "[\"CITY BEACH\"]"
+  },
+  {
+    "PostCode": "6016",
+    "Suburbs": "[\"GLENDALOUGH\",\"MOUNT HAWTHORN\"]"
+  },
+  {
+    "PostCode": "6017",
+    "Suburbs": "[\"HERDSMAN\",\"OSBORNE PARK\",\"OSBORNE PARK DC\"]"
+  },
+  {
+    "PostCode": "6018",
+    "Suburbs": "[\"CHURCHLANDS\",\"DOUBLEVIEW\",\"GWELUP\",\"GWELUP DC\",\"INNALOO\",\"KARRINYUP\",\"WOODLANDS\"]"
+  },
+  {
+    "PostCode": "6019",
+    "Suburbs": "[\"SCARBOROUGH\",\"WEMBLEY DOWNS\"]"
+  },
+  {
+    "PostCode": "6020",
+    "Suburbs": "[\"CARINE\",\"MARMION\",\"NORTH BEACH\",\"SORRENTO\",\"WATERMANS BAY\"]"
+  },
+  {
+    "PostCode": "6021",
+    "Suburbs": "[\"BALCATTA\",\"STIRLING\"]"
+  },
+  {
+    "PostCode": "6022",
+    "Suburbs": "[\"HAMERSLEY\"]"
+  },
+  {
+    "PostCode": "6023",
+    "Suburbs": "[\"DUNCRAIG\"]"
+  },
+  {
+    "PostCode": "6024",
+    "Suburbs": "[\"GREENWOOD\",\"WARWICK\"]"
+  },
+  {
+    "PostCode": "6025",
+    "Suburbs": "[\"CRAIGIE\",\"HILLARYS\",\"KALLAROO\",\"PADBURY\"]"
+  },
+  {
+    "PostCode": "6026",
+    "Suburbs": "[\"KINGSLEY\",\"WOODVALE\"]"
+  },
+  {
+    "PostCode": "6027",
+    "Suburbs": "[\"BELDON\",\"CONNOLLY\",\"EDGEWATER\",\"HEATHRIDGE\",\"JOONDALUP\",\"JOONDALUP DC\",\"MULLALOO\",\"OCEAN REEF\"]"
+  },
+  {
+    "PostCode": "6028",
+    "Suburbs": "[\"BURNS BEACH\",\"CURRAMBINE\",\"ILUKA\",\"KINROSS\"]"
+  },
+  {
+    "PostCode": "6029",
+    "Suburbs": "[\"TRIGG\"]"
+  },
+  {
+    "PostCode": "6030",
+    "Suburbs": "[\"CLARKSON\",\"MERRIWA\",\"MINDARIE\",\"QUINNS ROCKS\",\"RIDGEWOOD\",\"TAMALA PARK\"]"
+  },
+  {
+    "PostCode": "6031",
+    "Suburbs": "[\"BANKSIA GROVE\",\"CARRAMAR\",\"NEERABUP\"]"
+  },
+  {
+    "PostCode": "6032",
+    "Suburbs": "[\"NOWERGUP\"]"
+  },
+  {
+    "PostCode": "6033",
+    "Suburbs": "[\"CARABOODA\"]"
+  },
+  {
+    "PostCode": "6034",
+    "Suburbs": "[\"EGLINTON\"]"
+  },
+  {
+    "PostCode": "6035",
+    "Suburbs": "[\"YANCHEP\"]"
+  },
+  {
+    "PostCode": "6036",
+    "Suburbs": "[\"BUTLER\",\"JINDALEE\"]"
+  },
+  {
+    "PostCode": "6037",
+    "Suburbs": "[\"TWO ROCKS\"]"
+  },
+  {
+    "PostCode": "6038",
+    "Suburbs": "[\"ALKIMOS\"]"
+  },
+  {
+    "PostCode": "6041",
+    "Suburbs": "[\"CARABAN\",\"GABBADAH\",\"GUILDERTON\",\"WILBINGA\",\"WOODRIDGE\"]"
+  },
+  {
+    "PostCode": "6042",
+    "Suburbs": "[\"SEABIRD\"]"
+  },
+  {
+    "PostCode": "6043",
+    "Suburbs": "[\"BRETON BAY\",\"LEDGE POINT\"]"
+  },
+  {
+    "PostCode": "6044",
+    "Suburbs": "[\"KARAKIN\",\"LANCELIN\",\"NILGEN\",\"WEDGE ISLAND\"]"
+  },
+  {
+    "PostCode": "6050",
+    "Suburbs": "[\"COOLBINIA\",\"MENORA\",\"MOUNT LAWLEY\"]"
+  },
+  {
+    "PostCode": "6051",
+    "Suburbs": "[\"MAYLANDS\"]"
+  },
+  {
+    "PostCode": "6052",
+    "Suburbs": "[\"BEDFORD\",\"INGLEWOOD\"]"
+  },
+  {
+    "PostCode": "6053",
+    "Suburbs": "[\"BAYSWATER\"]"
+  },
+  {
+    "PostCode": "6054",
+    "Suburbs": "[\"ASHFIELD\",\"BASSENDEAN\",\"EDEN HILL\",\"KIARA\",\"LOCKRIDGE\"]"
+  },
+  {
+    "PostCode": "6055",
+    "Suburbs": "[\"BRABHAM\",\"CAVERSHAM\",\"DAYTON\",\"GUILDFORD\",\"HAZELMERE\",\"HENLEY BROOK\",\"SOUTH GUILDFORD\",\"WEST SWAN\"]"
+  },
+  {
+    "PostCode": "6056",
+    "Suburbs": "[\"BASKERVILLE\",\"BELLEVUE\",\"BOYA\",\"GREENMOUNT\",\"HELENA VALLEY\",\"HERNE HILL\",\"JANE BROOK\",\"KOONGAMIA\",\"MIDDLE SWAN\",\"MIDLAND\",\"MIDVALE\",\"MILLENDON\",\"RED HILL\",\"STRATTON\",\"SWAN VIEW\",\"VIVEASH\",\"WOODBRIDGE\"]"
+  },
+  {
+    "PostCode": "6057",
+    "Suburbs": "[\"HIGH WYCOMBE\",\"MAIDA VALE\"]"
+  },
+  {
+    "PostCode": "6058",
+    "Suburbs": "[\"FORRESTFIELD\"]"
+  },
+  {
+    "PostCode": "6059",
+    "Suburbs": "[\"DIANELLA\"]"
+  },
+  {
+    "PostCode": "6060",
+    "Suburbs": "[\"JOONDANNA\",\"TUART HILL\",\"YOKINE\",\"YOKINE SOUTH\"]"
+  },
+  {
+    "PostCode": "6061",
+    "Suburbs": "[\"BALGA\",\"MIRRABOOKA\",\"NOLLAMARA\",\"WESTMINSTER\"]"
+  },
+  {
+    "PostCode": "6062",
+    "Suburbs": "[\"EMBLETON\",\"MORLEY\",\"NORANDA\"]"
+  },
+  {
+    "PostCode": "6063",
+    "Suburbs": "[\"BEECHBORO\",\"BENNETT SPRINGS\"]"
+  },
+  {
+    "PostCode": "6064",
+    "Suburbs": "[\"ALEXANDER HEIGHTS\",\"GIRRAWHEEN\",\"KOONDOOLA\",\"MARANGAROO\"]"
+  },
+  {
+    "PostCode": "6065",
+    "Suburbs": "[\"ASHBY\",\"DARCH\",\"HOCKING\",\"KINGSWAY\",\"LANDSDALE\",\"MADELEY\",\"PEARSALL\",\"SINAGRA\",\"TAPPING\",\"WANGARA\",\"WANGARA DC\",\"WANNEROO\"]"
+  },
+  {
+    "PostCode": "6066",
+    "Suburbs": "[\"BALLAJURA\"]"
+  },
+  {
+    "PostCode": "6067",
+    "Suburbs": "[\"CULLACABARDEE\"]"
+  },
+  {
+    "PostCode": "6068",
+    "Suburbs": "[\"WHITEMAN\"]"
+  },
+  {
+    "PostCode": "6069",
+    "Suburbs": "[\"AVELEY\",\"BELHUS\",\"BRIGADOON\",\"ELLENBROOK\",\"THE VINES\",\"UPPER SWAN\"]"
+  },
+  {
+    "PostCode": "6070",
+    "Suburbs": "[\"DARLINGTON\"]"
+  },
+  {
+    "PostCode": "6071",
+    "Suburbs": "[\"GLEN FORREST\",\"HOVEA\"]"
+  },
+  {
+    "PostCode": "6072",
+    "Suburbs": "[\"MAHOGANY CREEK\"]"
+  },
+  {
+    "PostCode": "6073",
+    "Suburbs": "[\"MUNDARING\",\"MUNDARING DC\"]"
+  },
+  {
+    "PostCode": "6074",
+    "Suburbs": "[\"SAWYERS VALLEY\"]"
+  },
+  {
+    "PostCode": "6076",
+    "Suburbs": "[\"BICKLEY\",\"CARMEL\",\"GOOSEBERRY HILL\",\"HACKETTS GULLY\",\"KALAMUNDA\",\"LESMURDIE\",\"PAULLS VALLEY\",\"PICKERING BROOK\",\"PIESSE BROOK\",\"RESERVOIR\",\"WALLISTON\"]"
+  },
+  {
+    "PostCode": "6077",
+    "Suburbs": "[\"GNANGARA\",\"JANDABUP\"]"
+  },
+  {
+    "PostCode": "6078",
+    "Suburbs": "[\"MARIGINIUP\",\"PINJAR\"]"
+  },
+  {
+    "PostCode": "6079",
+    "Suburbs": "[\"LEXIA\",\"MELALEUCA\"]"
+  },
+  {
+    "PostCode": "6081",
+    "Suburbs": "[\"PARKERVILLE\",\"STONEVILLE\"]"
+  },
+  {
+    "PostCode": "6082",
+    "Suburbs": "[\"BAILUP\",\"MOUNT HELENA\"]"
+  },
+  {
+    "PostCode": "6083",
+    "Suburbs": "[\"GIDGEGANNUP\",\"MORANGUP\"]"
+  },
+  {
+    "PostCode": "6084",
+    "Suburbs": "[\"AVON VALLEY NATIONAL PARK\",\"BULLSBROOK\",\"CHITTERING\",\"LOWER CHITTERING\",\"WALYUNGA NATIONAL PARK\"]"
+  },
+  {
+    "PostCode": "6090",
+    "Suburbs": "[\"MALAGA\"]"
+  },
+  {
+    "PostCode": "6100",
+    "Suburbs": "[\"BURSWOOD\",\"LATHLAIN\",\"VICTORIA PARK\"]"
+  },
+  {
+    "PostCode": "6101",
+    "Suburbs": "[\"CARLISLE\",\"CARLISLE NORTH\",\"CARLISLE SOUTH\",\"EAST VICTORIA PARK\"]"
+  },
+  {
+    "PostCode": "6102",
+    "Suburbs": "[\"BENTLEY\",\"BENTLEY DC\",\"BENTLEY SOUTH\",\"ST JAMES\"]"
+  },
+  {
+    "PostCode": "6103",
+    "Suburbs": "[\"RIVERVALE\"]"
+  },
+  {
+    "PostCode": "6104",
+    "Suburbs": "[\"ASCOT\",\"BELMONT\",\"REDCLIFFE\"]"
+  },
+  {
+    "PostCode": "6105",
+    "Suburbs": "[\"CLOVERDALE\",\"KEWDALE\",\"PERTH AIRPORT\"]"
+  },
+  {
+    "PostCode": "6106",
+    "Suburbs": "[\"WELSHPOOL\"]"
+  },
+  {
+    "PostCode": "6107",
+    "Suburbs": "[\"BECKENHAM\",\"CANNINGTON\",\"EAST CANNINGTON\",\"KENWICK\",\"QUEENS PARK\",\"WATTLE GROVE\",\"WILSON\"]"
+  },
+  {
+    "PostCode": "6108",
+    "Suburbs": "[\"THORNLIE\"]"
+  },
+  {
+    "PostCode": "6109",
+    "Suburbs": "[\"MADDINGTON\",\"ORANGE GROVE\"]"
+  },
+  {
+    "PostCode": "6110",
+    "Suburbs": "[\"GOSNELLS\",\"HUNTINGDALE\",\"MARTIN\",\"SOUTHERN RIVER\"]"
+  },
+  {
+    "PostCode": "6111",
+    "Suburbs": "[\"ASHENDON\",\"CAMILLO\",\"CANNING MILLS\",\"CHAMPION LAKES\",\"KARRAGULLEN\",\"KELMSCOTT\",\"KELMSCOTT DC\",\"LESLEY\",\"ROLEYSTONE\"]"
+  },
+  {
+    "PostCode": "6112",
+    "Suburbs": "[\"ARMADALE\",\"BEDFORDALE\",\"BROOKDALE\",\"FORRESTDALE\",\"HARRISDALE\",\"HAYNES\",\"HILBERT\",\"MOUNT NASURA\",\"MOUNT RICHON\",\"PIARA WATERS\",\"SEVILLE GROVE\",\"WUNGONG\"]"
+  },
+  {
+    "PostCode": "6121",
+    "Suburbs": "[\"OAKFORD\",\"OLDBURY\"]"
+  },
+  {
+    "PostCode": "6122",
+    "Suburbs": "[\"BYFORD\",\"CARDUP\",\"DARLING DOWNS\",\"KARRAKUP\"]"
+  },
+  {
+    "PostCode": "6123",
+    "Suburbs": "[\"MUNDIJONG\",\"WHITBY\"]"
+  },
+  {
+    "PostCode": "6124",
+    "Suburbs": "[\"JARRAHDALE\"]"
+  },
+  {
+    "PostCode": "6125",
+    "Suburbs": "[\"HOPELAND\",\"MARDELLA\",\"SERPENTINE\"]"
+  },
+  {
+    "PostCode": "6126",
+    "Suburbs": "[\"KEYSBROOK\"]"
+  },
+  {
+    "PostCode": "6147",
+    "Suburbs": "[\"LANGFORD\",\"LYNWOOD\",\"PARKWOOD\"]"
+  },
+  {
+    "PostCode": "6148",
+    "Suburbs": "[\"FERNDALE\",\"RIVERTON\",\"ROSSMOYNE\",\"SHELLEY\"]"
+  },
+  {
+    "PostCode": "6149",
+    "Suburbs": "[\"BULL CREEK\",\"LEEMING\"]"
+  },
+  {
+    "PostCode": "6150",
+    "Suburbs": "[\"BATEMAN\",\"MURDOCH\",\"WINTHROP\"]"
+  },
+  {
+    "PostCode": "6151",
+    "Suburbs": "[\"KENSINGTON\",\"SOUTH PERTH\",\"SOUTH PERTH ANGELO ST\"]"
+  },
+  {
+    "PostCode": "6152",
+    "Suburbs": "[\"COMO\",\"KARAWARA\",\"MANNING\",\"SALTER POINT\",\"WATERFORD\"]"
+  },
+  {
+    "PostCode": "6153",
+    "Suburbs": "[\"APPLECROSS\",\"APPLECROSS NORTH\",\"ARDROSS\",\"BRENTWOOD\",\"CANNING BRIDGE APPLECROSS\",\"MOUNT PLEASANT\"]"
+  },
+  {
+    "PostCode": "6154",
+    "Suburbs": "[\"ALFRED COVE\",\"BOORAGOON\",\"MYAREE\"]"
+  },
+  {
+    "PostCode": "6155",
+    "Suburbs": "[\"CANNING VALE\",\"CANNING VALE DC\",\"CANNING VALE EAST\",\"CANNING VALE SOUTH\",\"WILLETTON\"]"
+  },
+  {
+    "PostCode": "6156",
+    "Suburbs": "[\"ATTADALE\",\"MELVILLE\",\"WILLAGEE\",\"WILLAGEE CENTRAL\"]"
+  },
+  {
+    "PostCode": "6157",
+    "Suburbs": "[\"BICTON\",\"PALMYRA\",\"PALMYRA DC\"]"
+  },
+  {
+    "PostCode": "6158",
+    "Suburbs": "[\"EAST FREMANTLE\"]"
+  },
+  {
+    "PostCode": "6159",
+    "Suburbs": "[\"NORTH FREMANTLE\"]"
+  },
+  {
+    "PostCode": "6160",
+    "Suburbs": "[\"FREMANTLE\"]"
+  },
+  {
+    "PostCode": "6161",
+    "Suburbs": "[\"ROTTNEST ISLAND\"]"
+  },
+  {
+    "PostCode": "6162",
+    "Suburbs": "[\"BEACONSFIELD\",\"SOUTH FREMANTLE\",\"WHITE GUM VALLEY\"]"
+  },
+  {
+    "PostCode": "6163",
+    "Suburbs": "[\"BIBRA LAKE\",\"BIBRA LAKE DC\",\"COOLBELLUP\",\"HAMILTON HILL\",\"HILTON\",\"KARDINYA\",\"NORTH COOGEE\",\"NORTH LAKE\",\"O'CONNOR\",\"SAMSON\",\"SPEARWOOD\"]"
+  },
+  {
+    "PostCode": "6164",
+    "Suburbs": "[\"ATWELL\",\"AUBIN GROVE\",\"BANJUP\",\"BEELIAR\",\"COCKBURN CENTRAL\",\"HAMMOND PARK\",\"JANDAKOT\",\"SOUTH LAKE\",\"SUCCESS\",\"YANGEBUP\"]"
+  },
+  {
+    "PostCode": "6165",
+    "Suburbs": "[\"HOPE VALLEY\",\"NAVAL BASE\"]"
+  },
+  {
+    "PostCode": "6166",
+    "Suburbs": "[\"COOGEE\",\"HENDERSON\",\"MUNSTER\",\"WATTLEUP\"]"
+  },
+  {
+    "PostCode": "6167",
+    "Suburbs": "[\"ANKETELL\",\"BERTRAM\",\"CALISTA\",\"CASUARINA\",\"KWINANA BEACH\",\"KWINANA TOWN CENTRE\",\"MANDOGALUP\",\"MEDINA\",\"ORELIA\",\"PARMELIA\",\"POSTANS\",\"THE SPECTACLES\",\"WANDI\"]"
+  },
+  {
+    "PostCode": "6168",
+    "Suburbs": "[\"COOLOONGUP\",\"EAST ROCKINGHAM\",\"GARDEN ISLAND\",\"HILLMAN\",\"PERON\",\"ROCKINGHAM\",\"ROCKINGHAM BEACH\",\"ROCKINGHAM DC\"]"
+  },
+  {
+    "PostCode": "6169",
+    "Suburbs": "[\"SAFETY BAY\",\"SHOALWATER\",\"WAIKIKI\",\"WARNBRO\"]"
+  },
+  {
+    "PostCode": "6170",
+    "Suburbs": "[\"LEDA\",\"WELLARD\"]"
+  },
+  {
+    "PostCode": "6171",
+    "Suburbs": "[\"BALDIVIS\"]"
+  },
+  {
+    "PostCode": "6172",
+    "Suburbs": "[\"PORT KENNEDY\"]"
+  },
+  {
+    "PostCode": "6173",
+    "Suburbs": "[\"SECRET HARBOUR\"]"
+  },
+  {
+    "PostCode": "6174",
+    "Suburbs": "[\"GOLDEN BAY\"]"
+  },
+  {
+    "PostCode": "6175",
+    "Suburbs": "[\"SINGLETON\"]"
+  },
+  {
+    "PostCode": "6176",
+    "Suburbs": "[\"KARNUP\"]"
+  },
+  {
+    "PostCode": "6180",
+    "Suburbs": "[\"LAKELANDS\",\"PARKLANDS\"]"
+  },
+  {
+    "PostCode": "6181",
+    "Suburbs": "[\"STAKE HILL\"]"
+  },
+  {
+    "PostCode": "6182",
+    "Suburbs": "[\"KERALUP\"]"
+  },
+  {
+    "PostCode": "6207",
+    "Suburbs": "[\"MYARA\",\"NAMBEELUP\",\"NORTH DANDALUP\",\"SOLUS\",\"WHITTAKER\"]"
+  },
+  {
+    "PostCode": "6208",
+    "Suburbs": "[\"BLYTHEWOOD\",\"FAIRBRIDGE\",\"MEELON\",\"NIRIMBA\",\"NORTH YUNDERUP\",\"OAKLEY\",\"PINJARRA\",\"POINT GREY\",\"RAVENSWOOD\",\"SOUTH YUNDERUP\",\"WEST PINJARRA\"]"
+  },
+  {
+    "PostCode": "6209",
+    "Suburbs": "[\"BARRAGUP\",\"FURNISSDALE\"]"
+  },
+  {
+    "PostCode": "6210",
+    "Suburbs": "[\"COODANUP\",\"DUDLEY PARK\",\"ERSKINE\",\"FALCON\",\"GREENFIELDS\",\"HALLS HEAD\",\"MADORA BAY\",\"MANDURAH\",\"MANDURAH DC\",\"MANDURAH EAST\",\"MANDURAH NORTH\",\"MEADOW SPRINGS\",\"SAN REMO\",\"SILVER SANDS\",\"WANNANUP\"]"
+  },
+  {
+    "PostCode": "6211",
+    "Suburbs": "[\"BOUVARD\",\"CLIFTON\",\"DAWESVILLE\",\"HERRON\"]"
+  },
+  {
+    "PostCode": "6213",
+    "Suburbs": "[\"BANKSIADALE\",\"DWELLINGUP\",\"ETMILYN\",\"HOLYOAKE\",\"INGLEHOPE\",\"MARRINUP\",\"TEESDALE\"]"
+  },
+  {
+    "PostCode": "6214",
+    "Suburbs": "[\"BIRCHMONT\",\"COOLUP\",\"WEST COOLUP\"]"
+  },
+  {
+    "PostCode": "6215",
+    "Suburbs": "[\"HAMEL\",\"LAKE CLIFTON\",\"NANGA BROOK\",\"PRESTON BEACH\",\"WAGERUP\",\"WAROONA\"]"
+  },
+  {
+    "PostCode": "6218",
+    "Suburbs": "[\"YARLOOP\"]"
+  },
+  {
+    "PostCode": "6220",
+    "Suburbs": "[\"COOKERNUP\",\"HARVEY\",\"HOFFMAN\",\"MYALUP\",\"UDUC\",\"WARAWARRUP\"]"
+  },
+  {
+    "PostCode": "6221",
+    "Suburbs": "[\"MORNINGTON\",\"WOKALUP\"]"
+  },
+  {
+    "PostCode": "6223",
+    "Suburbs": "[\"BENGER\"]"
+  },
+  {
+    "PostCode": "6224",
+    "Suburbs": "[\"BEELA\",\"BRUNSWICK\"]"
+  },
+  {
+    "PostCode": "6225",
+    "Suburbs": "[\"ALLANSON\",\"BOWELLING\",\"BUCKINGHAM\",\"CARDIFF\",\"COLLIE\",\"COLLIE BURN\",\"HARRIS RIVER\",\"LYALLS MILL\",\"MCALINDEN\",\"MUJA\",\"MUMBALLUP\",\"MUNGALUP\",\"NOGGERUP\",\"PALMER\",\"PRESTON SETTLEMENT\",\"SHOTTS\",\"WORSLEY\",\"YOURDAMUNG LAKE\"]"
+  },
+  {
+    "PostCode": "6226",
+    "Suburbs": "[\"ROELANDS\"]"
+  },
+  {
+    "PostCode": "6227",
+    "Suburbs": "[\"BUREKUP\"]"
+  },
+  {
+    "PostCode": "6228",
+    "Suburbs": "[\"WATERLOO\"]"
+  },
+  {
+    "PostCode": "6229",
+    "Suburbs": "[\"PICTON\",\"PICTON EAST\"]"
+  },
+  {
+    "PostCode": "6230",
+    "Suburbs": "[\"BUNBURY\",\"CAREY PARK\",\"COLLEGE GROVE\",\"DALYELLUP\",\"DAVENPORT\",\"EAST BUNBURY\",\"GELORUP\",\"GLEN IRIS\",\"PELICAN POINT\",\"SOUTH BUNBURY\",\"USHER\",\"VITTORIA\",\"WITHERS\"]"
+  },
+  {
+    "PostCode": "6232",
+    "Suburbs": "[\"EATON\",\"MILLBRIDGE\"]"
+  },
+  {
+    "PostCode": "6233",
+    "Suburbs": "[\"AUSTRALIND\",\"BINNINGUP\",\"LESCHENAULT\",\"PARKFIELD\",\"WELLESLEY\"]"
+  },
+  {
+    "PostCode": "6236",
+    "Suburbs": "[\"CROOKED BROOK\",\"DARDANUP\",\"DARDANUP WEST\",\"FERGUSON\",\"HENTY\",\"PARADISE\",\"WELLINGTON FOREST\",\"WELLINGTON MILL\"]"
+  },
+  {
+    "PostCode": "6237",
+    "Suburbs": "[\"BOYANUP\",\"ELGIN\",\"GWINDINUP\",\"NORTH BOYANUP\",\"STRATHAM\",\"THE PLAINS\"]"
+  },
+  {
+    "PostCode": "6239",
+    "Suburbs": "[\"ARGYLE\",\"BEELERUP\",\"BROOKHAMPTON\",\"CHARLEY CREEK\",\"DONNYBROOK\",\"GLEN MERVYN\",\"PAYNEDALE\",\"QUEENWOOD\",\"THOMSON BROOK\",\"UPPER CAPEL\",\"YABBERUP\"]"
+  },
+  {
+    "PostCode": "6240",
+    "Suburbs": "[\"LOWDEN\"]"
+  },
+  {
+    "PostCode": "6243",
+    "Suburbs": "[\"WILGA\",\"WILGA WEST\"]"
+  },
+  {
+    "PostCode": "6244",
+    "Suburbs": "[\"BOYUP BROOK\",\"CHOWERUP\",\"DINNINUP\",\"KULIKUP\",\"MAYANUP\",\"SCOTTS BROOK\",\"TONEBRIDGE\",\"TRIGWELL\"]"
+  },
+  {
+    "PostCode": "6251",
+    "Suburbs": "[\"BRAZIER\",\"KIRUP\",\"NEWLANDS\"]"
+  },
+  {
+    "PostCode": "6252",
+    "Suburbs": "[\"MULLALYUP\"]"
+  },
+  {
+    "PostCode": "6253",
+    "Suburbs": "[\"BALINGUP\",\"GRIMWADE\",\"SOUTHAMPTON\"]"
+  },
+  {
+    "PostCode": "6254",
+    "Suburbs": "[\"GREENBUSHES\",\"NORTH GREENBUSHES\"]"
+  },
+  {
+    "PostCode": "6255",
+    "Suburbs": "[\"BENJINUP\",\"BRIDGETOWN\",\"CATTERICK\",\"HESTER\",\"HESTER BROOK\",\"KANGAROO GULLY\",\"WINNEJUP\"]"
+  },
+  {
+    "PostCode": "6256",
+    "Suburbs": "[\"GLENLYNN\",\"KINGSTON\",\"MARANUP\",\"SUNNYSIDE\",\"WANDILLUP\",\"YORNUP\"]"
+  },
+  {
+    "PostCode": "6258",
+    "Suburbs": "[\"BALBARRUP\",\"DEANMILL\",\"DIAMOND TREE\",\"DINGUP\",\"DIXVALE\",\"DONNELLY RIVER\",\"GLENORAN\",\"JARDEE\",\"LAKE MUIR\",\"LINFARNE\",\"MANJIMUP\",\"MIDDLESEX\",\"MORDALUP\",\"PALGARUP\",\"PERUP\",\"QUINNINUP\",\"RINGBARK\",\"SMITH BROOK\",\"UPPER WARREN\",\"WILGARRUP\",\"YANMAH\"]"
+  },
+  {
+    "PostCode": "6260",
+    "Suburbs": "[\"BEEDELUP\",\"BIDDELIA\",\"CALLCUP\",\"CHANNYBEARUP\",\"COLLINS\",\"EASTBROOK\",\"LAKE JASPER\",\"PEERABEELUP\",\"PEMBERTON\",\"YEAGARUP\"]"
+  },
+  {
+    "PostCode": "6262",
+    "Suburbs": "[\"BOORARA BROOK\",\"CROWEA\",\"MEERUP\",\"NORTHCLIFFE\",\"SHANNON\",\"WINDY HARBOUR\"]"
+  },
+  {
+    "PostCode": "6271",
+    "Suburbs": "[\"CAPEL\",\"CAPEL RIVER\",\"FORREST BEACH\",\"PEPPERMINT GROVE BEACH\",\"STIRLING ESTATE\"]"
+  },
+  {
+    "PostCode": "6275",
+    "Suburbs": "[\"BARRABUP\",\"CARLOTTA\",\"CUNDINUP\",\"DARRADUP\",\"EAST NANNUP\",\"JALBARRAGUP\",\"JARRAHWOOD\",\"NANNUP\",\"SCOTT RIVER EAST\",\"YOGANUP\"]"
+  },
+  {
+    "PostCode": "6280",
+    "Suburbs": "[\"ABBA RIVER\",\"ABBEY\",\"ACTON PARK\",\"AMBERGATE\",\"ANNIEBROOK\",\"BOALLIA\",\"BOVELL\",\"BROADWATER\",\"BUSSELTON\",\"CARBUNUP RIVER\",\"CHAPMAN HILL\",\"GEOGRAPHE\",\"HITHERGREEN\",\"JINDONG\",\"KALGUP\",\"KALOORUP\",\"KEALY\",\"LUDLOW\",\"MARYBROOK\",\"METRICUP\",\"NORTH JINDONG\",\"REINSCOURT\",\"RUABON\",\"SABINA RIVER\",\"SIESTA PARK\",\"TUTUNUP\",\"VASSE\",\"WALSALL\",\"WEST BUSSELTON\",\"WILYABRUP\",\"WONNERUP\",\"YALYALUP\",\"YELVERTON\",\"YOONGARILLUP\"]"
+  },
+  {
+    "PostCode": "6281",
+    "Suburbs": "[\"DUNSBOROUGH\",\"EAGLE BAY\",\"NATURALISTE\",\"QUEDJINUP\",\"QUINDALUP\"]"
+  },
+  {
+    "PostCode": "6282",
+    "Suburbs": "[\"YALLINGUP\",\"YALLINGUP SIDING\"]"
+  },
+  {
+    "PostCode": "6284",
+    "Suburbs": "[\"BAUDIN\",\"COWARAMUP\",\"GRACETOWN\",\"TREETON\"]"
+  },
+  {
+    "PostCode": "6285",
+    "Suburbs": "[\"BRAMLEY\",\"BURNSIDE\",\"GNARABUP\",\"MARGARET RIVER\",\"OSMINGTON\",\"PREVELLY\",\"ROSA BROOK\",\"ROSA GLEN\",\"SCHROEDER\"]"
+  },
+  {
+    "PostCode": "6286",
+    "Suburbs": "[\"BORANUP\",\"FOREST GROVE\",\"REDGATE\",\"WITCHCLIFFE\"]"
+  },
+  {
+    "PostCode": "6288",
+    "Suburbs": "[\"ALEXANDRA BRIDGE\",\"COURTENAY\",\"HAMELIN BAY\",\"KARRIDALE\",\"NILLUP\",\"SCOTT RIVER\",\"WARNER GLEN\"]"
+  },
+  {
+    "PostCode": "6290",
+    "Suburbs": "[\"AUGUSTA\",\"DEEPDENE\",\"EAST AUGUSTA\",\"KUDARDUP\",\"LEEUWIN\",\"MOLLOY ISLAND\"]"
+  },
+  {
+    "PostCode": "6302",
+    "Suburbs": "[\"BADGIN\",\"BALLADONG\",\"BURGES\",\"CALJIE\",\"COLD HARBOUR\",\"DALIAK\",\"FLINT\",\"FLYNN\",\"GILGERING\",\"GREENHILLS\",\"GWAMBYGINE\",\"INKPEN\",\"KAURING\",\"MALEBELLING\",\"MOUNT HARDEY\",\"MOUNT OBSERVATION\",\"NARRALOGGAN\",\"QUELLINGTON\",\"ST RONANS\",\"TALBOT\",\"TALBOT WEST\",\"WILBERFORCE\",\"YORK\"]"
+  },
+  {
+    "PostCode": "6304",
+    "Suburbs": "[\"BALLY BALLY\",\"BEVERLEY\",\"DALE\",\"EAST BEVERLEY\",\"KOKEBY\",\"MORBINNING\",\"WESTDALE\"]"
+  },
+  {
+    "PostCode": "6306",
+    "Suburbs": "[\"ALDERSYDE\",\"BROOKTON\",\"BULYEE\",\"JELCOBINE\",\"KWEDA\"]"
+  },
+  {
+    "PostCode": "6308",
+    "Suburbs": "[\"CODJATOTINE\",\"DWARDA\",\"EAST PINGELLY\",\"GILLIMANNING\",\"HASTINGS\",\"PINGELLY\",\"PUMPHREYS BRIDGE\",\"SPRINGS\",\"WANDERING\",\"WEST PINGELLY\"]"
+  },
+  {
+    "PostCode": "6309",
+    "Suburbs": "[\"EAST POPANYINNING\",\"POPANYINNING\",\"STRATHERNE\",\"WEST POPANYINNING\"]"
+  },
+  {
+    "PostCode": "6311",
+    "Suburbs": "[\"COMMODINE\",\"CONTINE\",\"CUBALLING\",\"DRYANDRA\",\"LOL GRAY\",\"TOWNSENDALE\",\"WARDERING\",\"YORNANING\"]"
+  },
+  {
+    "PostCode": "6312",
+    "Suburbs": "[\"BOUNDAIN\",\"DUMBERNING\",\"HILLSIDE\",\"MINIGIN\",\"NARROGIN\",\"NARROGIN VALLEY\",\"NOMANS LAKE\",\"TOOLIBIN\",\"YILLIMINNING\"]"
+  },
+  {
+    "PostCode": "6313",
+    "Suburbs": "[\"HIGHBURY\"]"
+  },
+  {
+    "PostCode": "6315",
+    "Suburbs": "[\"ARTHUR RIVER\",\"BALLAYING\",\"CANCANNING\",\"COLLANILLING\",\"DONGOLOCKING\",\"GUNDARING\",\"JALORAN\",\"LIME LAKE\",\"MINDING\",\"PIESSEVILLE\",\"WAGIN\",\"WEDGECARRUP\"]"
+  },
+  {
+    "PostCode": "6316",
+    "Suburbs": "[\"BOYERINE\",\"CARTMETICUP\",\"GLENCOE\",\"KENMARE\",\"WESTWOOD\",\"WOODANILLING\"]"
+  },
+  {
+    "PostCode": "6317",
+    "Suburbs": "[\"BADGEBUP\",\"BULLOCK HILLS\",\"CARROLUP\",\"COBLININE\",\"COYRECUP\",\"DATATINE\",\"EWLYAMARTUP\",\"KATANNING\",\"MARRACOONDA\",\"MOOJEBING\",\"MURDONG\",\"PINWERNYING\",\"SOUTH DATATINE\",\"SOUTH GLENCOE\"]"
+  },
+  {
+    "PostCode": "6318",
+    "Suburbs": "[\"BROOMEHILL\",\"BROOMEHILL EAST\",\"BROOMEHILL VILLAGE\",\"BROOMEHILL WEST\"]"
+  },
+  {
+    "PostCode": "6320",
+    "Suburbs": "[\"BOBALONG\",\"BORDERDALE\",\"DARTNALL\",\"LAKE TOOLBRUNUP\",\"MOONIES HILL\",\"TAMBELLUP\",\"WANSBROUGH\"]"
+  },
+  {
+    "PostCode": "6321",
+    "Suburbs": "[\"CRANBROOK\"]"
+  },
+  {
+    "PostCode": "6322",
+    "Suburbs": "[\"TENTERDEN\"]"
+  },
+  {
+    "PostCode": "6323",
+    "Suburbs": "[\"KENDENUP\"]"
+  },
+  {
+    "PostCode": "6324",
+    "Suburbs": "[\"DENBARKER\",\"FOREST HILL\",\"MOUNT BARKER\",\"PERILLUP\",\"PORONGURUP\",\"SOUTH STIRLING\",\"TAKALARUP\",\"WOOGENELLUP\"]"
+  },
+  {
+    "PostCode": "6326",
+    "Suburbs": "[\"NARRIKUP\"]"
+  },
+  {
+    "PostCode": "6327",
+    "Suburbs": "[\"REDMOND\",\"REDMOND WEST\"]"
+  },
+  {
+    "PostCode": "6328",
+    "Suburbs": "[\"CHEYNES\",\"GNOWELLEN\",\"GREEN RANGE\",\"KOJANEERUP SOUTH\",\"MANYPEAKS\",\"METTLER\",\"PALMDALE\",\"WELLSTEAD\"]"
+  },
+  {
+    "PostCode": "6330",
+    "Suburbs": "[\"ALBANY\",\"BAYONET HEAD\",\"BIG GROVE\",\"BORNHOLM\",\"CENTENNIAL PARK\",\"COLLINGWOOD HEIGHTS\",\"COLLINGWOOD PARK\",\"CUTHBERT\",\"DROME\",\"ELLEKER\",\"EMU POINT\",\"FRENCHMAN BAY\",\"GLEDHOW\",\"GOODE BEACH\",\"GREEN VALLEY\",\"KALGAN\",\"KING RIVER\",\"KRONKUP\",\"LANGE\",\"LITTLE GROVE\",\"LOCKYER\",\"LOWER KING\",\"LOWLANDS\",\"MARBELUP\",\"MCKAIL\",\"MIDDLETON BEACH\",\"MILLBROOK\",\"MILPARA\",\"MIRA MAR\",\"MOUNT CLARENCE\",\"MOUNT ELPHINSTONE\",\"MOUNT MELVILLE\",\"NANARUP\",\"NAPIER\",\"NULLAKI\",\"ORANA\",\"PORT ALBANY\",\"ROBINSON\",\"SANDPATCH\",\"SEPPINGS\",\"SPENCER PARK\",\"TORBAY\",\"TORNDIRRUP\",\"VANCOUVER PENINSULA\",\"WALMSLEY\",\"WARRENUP\",\"WEST CAPE HOWE\",\"WILLYUNG\",\"YAKAMIA\",\"YOUNGS SIDING\"]"
+  },
+  {
+    "PostCode": "6333",
+    "Suburbs": "[\"BOW BRIDGE\",\"DENMARK\",\"HAY\",\"HAZELVALE\",\"KENTDALE\",\"KORDABUP\",\"MOUNT LINDESAY\",\"MOUNT ROMANCE\",\"NORNALUP\",\"OCEAN BEACH\",\"PARRYVILLE\",\"PEACEFUL BAY\",\"SCOTSDALE\",\"SHADFORTH\",\"TINGLEDALE\",\"TRENT\",\"WILLIAM BAY\"]"
+  },
+  {
+    "PostCode": "6335",
+    "Suburbs": "[\"GNOWANGERUP\",\"JACKITUP\",\"KEBARINGUP\",\"PALLINUP\"]"
+  },
+  {
+    "PostCode": "6336",
+    "Suburbs": "[\"COWALELLUP\",\"MILLS LAKE\",\"MINDARABIN\",\"NEEDILUP\",\"ONGERUP\",\"TOOMPUP\"]"
+  },
+  {
+    "PostCode": "6337",
+    "Suburbs": "[\"FITZGERALD\",\"GAIRDNER\",\"JACUP\",\"JERRAMUNGUP\",\"WEST FITZGERALD\"]"
+  },
+  {
+    "PostCode": "6338",
+    "Suburbs": "[\"AMELUP\",\"BORDEN\",\"BOXWOOD HILL\",\"BREMER BAY\",\"MAGITUP\",\"MONJEBUP\",\"NALYERLUP\",\"NORTH STIRLINGS\",\"STIRLING RANGE NATIONAL PARK\"]"
+  },
+  {
+    "PostCode": "6341",
+    "Suburbs": "[\"NYABING\"]"
+  },
+  {
+    "PostCode": "6343",
+    "Suburbs": "[\"PINGRUP\"]"
+  },
+  {
+    "PostCode": "6346",
+    "Suburbs": "[\"FITZGERALD RIVER NATIONAL PARK\",\"JERDACUTTUP\",\"RAVENSTHORPE\",\"WEST RIVER\"]"
+  },
+  {
+    "PostCode": "6348",
+    "Suburbs": "[\"HOPETOUN\"]"
+  },
+  {
+    "PostCode": "6350",
+    "Suburbs": "[\"DUMBLEYUNG\",\"NAIRIBIN\",\"NIPPERING\"]"
+  },
+  {
+    "PostCode": "6351",
+    "Suburbs": "[\"MOULYINNING\",\"NORTH MOULYINNING\"]"
+  },
+  {
+    "PostCode": "6352",
+    "Suburbs": "[\"KUKERIN\",\"MERILUP\",\"NORTH KUKERIN\",\"SOUTH KUKERIN\"]"
+  },
+  {
+    "PostCode": "6353",
+    "Suburbs": "[\"BEENONG\",\"BUNICHE\",\"KUENDER\",\"LAKE GRACE\",\"MALLEE HILL\",\"NEENDALING\",\"NORTH BURNGUP\",\"NORTH LAKE GRACE\",\"SOUTH LAKE GRACE\",\"TARIN ROCK\"]"
+  },
+  {
+    "PostCode": "6355",
+    "Suburbs": "[\"DUNN ROCK\",\"EAST NEWDEGATE\",\"HOLT ROCK\",\"LAKE BIDDY\",\"LAKE CAMM\",\"LITTLE ITALY\",\"MAGENTA\",\"MOUNT SHERIDAN\",\"NEWDEGATE\",\"SOUTH NEWDEGATE\",\"VARLEY\"]"
+  },
+  {
+    "PostCode": "6356",
+    "Suburbs": "[\"HATTER HILL\",\"LAKE KING\",\"MOUNT MADDEN\"]"
+  },
+  {
+    "PostCode": "6357",
+    "Suburbs": "[\"PINGARING\"]"
+  },
+  {
+    "PostCode": "6358",
+    "Suburbs": "[\"KARLGARIN\"]"
+  },
+  {
+    "PostCode": "6359",
+    "Suburbs": "[\"FORRESTANIA\",\"HYDEN\"]"
+  },
+  {
+    "PostCode": "6361",
+    "Suburbs": "[\"HARRISMITH\",\"TINCURRIN\"]"
+  },
+  {
+    "PostCode": "6363",
+    "Suburbs": "[\"DUDININ\",\"WALYURIN\"]"
+  },
+  {
+    "PostCode": "6365",
+    "Suburbs": "[\"JILAKIN\",\"JITARNING\",\"KULIN\",\"KULIN WEST\"]"
+  },
+  {
+    "PostCode": "6367",
+    "Suburbs": "[\"KONDININ\"]"
+  },
+  {
+    "PostCode": "6368",
+    "Suburbs": "[\"SOUTH KUMMININ\"]"
+  },
+  {
+    "PostCode": "6369",
+    "Suburbs": "[\"MOUNT WALKER\",\"NAREMBEEN\",\"WADDERIN\",\"WEST HOLLETON\",\"WOOLOCUTTY\"]"
+  },
+  {
+    "PostCode": "6370",
+    "Suburbs": "[\"EAST WICKEPIN\",\"KIRK ROCK\",\"MALYALLING\",\"WICKEPIN\",\"WOGOLIN\"]"
+  },
+  {
+    "PostCode": "6372",
+    "Suburbs": "[\"YEALERING\"]"
+  },
+  {
+    "PostCode": "6373",
+    "Suburbs": "[\"BULLARING\"]"
+  },
+  {
+    "PostCode": "6375",
+    "Suburbs": "[\"ADAMSVALE\",\"BILBARIN\",\"CORRIGIN\",\"GORGE ROCK\",\"KUNJIN\",\"KURRENKUTTEN\"]"
+  },
+  {
+    "PostCode": "6383",
+    "Suburbs": "[\"BADJALING\",\"BALKULING\",\"CUBBINE\",\"DANGIN\",\"DOODENANNING\",\"DULBELLING\",\"MOUNT STIRLING\",\"QUAIRADING\",\"SOUTH QUAIRADING\",\"WAMENUSKING\",\"YOTING\"]"
+  },
+  {
+    "PostCode": "6384",
+    "Suburbs": "[\"PANTAPIN\"]"
+  },
+  {
+    "PostCode": "6385",
+    "Suburbs": "[\"KWOLYIN\"]"
+  },
+  {
+    "PostCode": "6386",
+    "Suburbs": "[\"SHACKLETON\"]"
+  },
+  {
+    "PostCode": "6390",
+    "Suburbs": "[\"BANNISTER\",\"BODDINGTON\",\"CROSSMAN\",\"LOWER HOTHAM\",\"MARRADONG\",\"MOUNT COOKE\",\"MOUNT WELLS\",\"NORTH BANNISTER\",\"RANFORD\",\"UPPER MURRAY\",\"WURAMING\"]"
+  },
+  {
+    "PostCode": "6391",
+    "Suburbs": "[\"QUINDANNING\",\"WILLIAMS\"]"
+  },
+  {
+    "PostCode": "6392",
+    "Suburbs": "[\"BOKAL\",\"DARDADINE\",\"DARKAN\",\"MEEKING\"]"
+  },
+  {
+    "PostCode": "6393",
+    "Suburbs": "[\"DURANILLIN\",\"MOODIARRUP\"]"
+  },
+  {
+    "PostCode": "6394",
+    "Suburbs": "[\"BEAUFORT RIVER\",\"BOILUP\",\"BOSCABEL\",\"CHANGERUP\",\"MOKUP\",\"MURADUP\",\"ORCHID VALLEY\",\"QUALEUP\"]"
+  },
+  {
+    "PostCode": "6395",
+    "Suburbs": "[\"CHERRY TREE POOL\",\"JINGALUP\",\"KOJONUP\",\"LUMEAH\",\"MOBRUP\",\"RYANSBROOK\"]"
+  },
+  {
+    "PostCode": "6396",
+    "Suburbs": "[\"FRANKLAND RIVER\"]"
+  },
+  {
+    "PostCode": "6397",
+    "Suburbs": "[\"ROCKY GULLY\"]"
+  },
+  {
+    "PostCode": "6398",
+    "Suburbs": "[\"BROKE\",\"NORTH WALPOLE\",\"WALPOLE\"]"
+  },
+  {
+    "PostCode": "6401",
+    "Suburbs": "[\"BUCKLAND\",\"BURLONG\",\"CUNJARDINE\",\"IRISHTOWN\",\"JENNACUBBINE\",\"JENNAPULLIN\",\"MALABAINE\",\"MEENAAR\",\"MOKINE\",\"MULUCKINE\",\"MUMBERKINE\",\"MURESK\",\"NORTHAM\",\"ROSSMORE\",\"SOUTHERN BROOK\",\"SPENCERS BROOK\",\"THROSSELL\",\"WONGAMINE\"]"
+  },
+  {
+    "PostCode": "6403",
+    "Suburbs": "[\"GRASS VALLEY\"]"
+  },
+  {
+    "PostCode": "6405",
+    "Suburbs": "[\"GREENWOODS VALLEY\",\"MECKERING\",\"QUELAGETTING\",\"WARDING EAST\"]"
+  },
+  {
+    "PostCode": "6407",
+    "Suburbs": "[\"CUNDERDIN\",\"WAEEL\",\"WATERCARRIN\",\"WYOLA WEST\",\"YOUNDEGIN\"]"
+  },
+  {
+    "PostCode": "6409",
+    "Suburbs": "[\"NORTH TAMMIN\",\"SOUTH TAMMIN\",\"TAMMIN\"]"
+  },
+  {
+    "PostCode": "6410",
+    "Suburbs": "[\"DAADENNING CREEK\",\"KELLERBERRIN\",\"MOUNT CAROLINE\",\"NORTH KELLERBERRIN\"]"
+  },
+  {
+    "PostCode": "6411",
+    "Suburbs": "[\"DOODLAKINE\",\"SOUTH DOODLAKINE\"]"
+  },
+  {
+    "PostCode": "6412",
+    "Suburbs": "[\"BAANDEE\",\"NORTH BAANDEE\"]"
+  },
+  {
+    "PostCode": "6413",
+    "Suburbs": "[\"HINES HILL\"]"
+  },
+  {
+    "PostCode": "6414",
+    "Suburbs": "[\"NANGEENAN\"]"
+  },
+  {
+    "PostCode": "6415",
+    "Suburbs": "[\"GOOMARIN\",\"KORBEL\",\"MERREDIN\",\"NOKANING\",\"NORPA\",\"TANDEGIN\"]"
+  },
+  {
+    "PostCode": "6418",
+    "Suburbs": "[\"BRUCE ROCK\"]"
+  },
+  {
+    "PostCode": "6419",
+    "Suburbs": "[\"ARDATH\"]"
+  },
+  {
+    "PostCode": "6420",
+    "Suburbs": "[\"CRAMPHORNE\",\"MUNTADGIN\"]"
+  },
+  {
+    "PostCode": "6421",
+    "Suburbs": "[\"BURRACOPPIN\",\"SOUTH BURRACOPPIN\",\"WARRALAKIN\"]"
+  },
+  {
+    "PostCode": "6422",
+    "Suburbs": "[\"WALGOOLAN\"]"
+  },
+  {
+    "PostCode": "6423",
+    "Suburbs": "[\"BOODAROCKIN\",\"CARRABIN\",\"WARRACHUPPIN\",\"WESTONIA\"]"
+  },
+  {
+    "PostCode": "6424",
+    "Suburbs": "[\"BODALLIN\",\"NORTH BODALLIN\",\"SOUTH BODALLIN\"]"
+  },
+  {
+    "PostCode": "6425",
+    "Suburbs": "[\"DULYALBIN\",\"MOORINE ROCK\"]"
+  },
+  {
+    "PostCode": "6426",
+    "Suburbs": "[\"CORINTHIA\",\"GHOOLI\",\"HOLLETON\",\"MARVEL LOCH\",\"MOUNT HAMPTON\",\"MOUNT HOLLAND\",\"MOUNT JACKSON\",\"MOUNT PALMER\",\"PARKER RANGE\",\"SKELETON ROCK\",\"SOUTH YILGARN\",\"SOUTHERN CROSS\",\"TURKEY HILL\",\"YELLOWDINE\"]"
+  },
+  {
+    "PostCode": "6427",
+    "Suburbs": "[\"KOOLYANOBBING\"]"
+  },
+  {
+    "PostCode": "6428",
+    "Suburbs": "[\"BABAKIN\"]"
+  },
+  {
+    "PostCode": "6429",
+    "Suburbs": "[\"BOORABBIN\",\"BULLABULLING\",\"COOLGARDIE\",\"KARRAMINDIE\",\"LONDONDERRY\",\"MOUNT BURGES\",\"VICTORIA ROCK\",\"WALLAROO\"]"
+  },
+  {
+    "PostCode": "6430",
+    "Suburbs": "[\"BINDULI\",\"BROADWOOD\",\"HANNANS\",\"KALGOORLIE\",\"KARLKURLA\",\"LAMINGTON\",\"MULLINGAR\",\"PICCADILLY\",\"SOMERVILLE\",\"SOUTH KALGOORLIE\",\"WEST KALGOORLIE\",\"WEST LAMINGTON\",\"WILLIAMSTOWN\",\"YILKARI\"]"
+  },
+  {
+    "PostCode": "6431",
+    "Suburbs": "[\"BOORARA\",\"BROWN HILL\",\"BULONG\",\"EMU FLAT\",\"FEYSVILLE\",\"KANOWNA\",\"KOOKYNIE\",\"KURNALPI\",\"LAKEWOOD\",\"ORA BANDA\",\"PLUMRIDGE LAKES\",\"TRAFALGAR\",\"WARBURTON\"]"
+  },
+  {
+    "PostCode": "6432",
+    "Suburbs": "[\"BOULDER\",\"FIMISTON\",\"SOUTH BOULDER\",\"VICTORY HEIGHTS\"]"
+  },
+  {
+    "PostCode": "6434",
+    "Suburbs": "[\"CUNDEELEE\",\"FORREST\",\"PARKESTON\",\"RAWLINNA\",\"ZANTHUS\"]"
+  },
+  {
+    "PostCode": "6436",
+    "Suburbs": "[\"MENZIES\",\"ULARRING\"]"
+  },
+  {
+    "PostCode": "6437",
+    "Suburbs": "[\"LEINSTER\",\"SIR SAMUEL\"]"
+  },
+  {
+    "PostCode": "6438",
+    "Suburbs": "[\"LAKE DARLOT\",\"LEONORA\"]"
+  },
+  {
+    "PostCode": "6440",
+    "Suburbs": "[\"BANDYA\",\"BEADELL\",\"COSMO NEWBERY\",\"LAKE WELLS\",\"LAVERTON\",\"NEALE\"]"
+  },
+  {
+    "PostCode": "6442",
+    "Suburbs": "[\"KAMBALDA EAST\",\"KAMBALDA WEST\"]"
+  },
+  {
+    "PostCode": "6443",
+    "Suburbs": "[\"BALLADONIA\",\"CAIGUNA\",\"COCKLEBIDDY\",\"DUNDAS\",\"EUCLA\",\"FRASER RANGE\",\"HIGGINSVILLE\",\"MADURA\",\"MUNDRABILLA\",\"NORSEMAN\",\"WIDGIEMOOLTHA\"]"
+  },
+  {
+    "PostCode": "6445",
+    "Suburbs": "[\"NORTH CASCADE\",\"SALMON GUMS\"]"
+  },
+  {
+    "PostCode": "6446",
+    "Suburbs": "[\"GRASS PATCH\"]"
+  },
+  {
+    "PostCode": "6447",
+    "Suburbs": "[\"LORT RIVER\",\"MOUNT NEY\",\"SCADDAN\",\"WITTENOOM HILLS\"]"
+  },
+  {
+    "PostCode": "6448",
+    "Suburbs": "[\"GIBSON\"]"
+  },
+  {
+    "PostCode": "6450",
+    "Suburbs": "[\"BANDY CREEK\",\"BEAUMONT\",\"BOYATUP\",\"CAPE LE GRAND\",\"CASCADE\",\"CASTLETOWN\",\"CHADWICK\",\"CONDINGUP\",\"COOMALBIDGUP\",\"DALYUP\",\"EAST MUNGLINUP\",\"ESPERANCE\",\"HOWICK\",\"MERIVALE\",\"MONJINGUP\",\"MUNGLINUP\",\"MYRUP\",\"NERIDUP\",\"NULSEN\",\"PINK LAKE\",\"SINCLAIR\",\"WEST BEACH\",\"WINDABOUT\"]"
+  },
+  {
+    "PostCode": "6452",
+    "Suburbs": "[\"BURAMINYA\",\"CAPE ARID\",\"ISRAELITE BAY\"]"
+  },
+  {
+    "PostCode": "6460",
+    "Suburbs": "[\"GOOMALLING\",\"HULONGINE\",\"KARRANADGIN\",\"UCARTY WEST\",\"WALYORMOURING\"]"
+  },
+  {
+    "PostCode": "6461",
+    "Suburbs": "[\"DOWERIN\",\"KOOMBERKINE\"]"
+  },
+  {
+    "PostCode": "6462",
+    "Suburbs": "[\"HINDMARSH\",\"MINNIVALE\",\"UCARTY\"]"
+  },
+  {
+    "PostCode": "6463",
+    "Suburbs": "[\"BENJABERRING\"]"
+  },
+  {
+    "PostCode": "6465",
+    "Suburbs": "[\"MANMANNING\"]"
+  },
+  {
+    "PostCode": "6466",
+    "Suburbs": "[\"CADOUX\"]"
+  },
+  {
+    "PostCode": "6467",
+    "Suburbs": "[\"BURAKIN\"]"
+  },
+  {
+    "PostCode": "6468",
+    "Suburbs": "[\"GOODLANDS\",\"KALANNIE\",\"PETRUDOR\"]"
+  },
+  {
+    "PostCode": "6470",
+    "Suburbs": "[\"KULJA\"]"
+  },
+  {
+    "PostCode": "6472",
+    "Suburbs": "[\"BEACON\",\"BIMBIJY\",\"CLEARY\",\"KARROUN HILL\",\"MOUROUBRA\",\"REMLAP\",\"TAMPU\"]"
+  },
+  {
+    "PostCode": "6473",
+    "Suburbs": "[\"NORTH WIALKI\",\"WIALKI\"]"
+  },
+  {
+    "PostCode": "6475",
+    "Suburbs": "[\"BADGERIN ROCK\",\"BOORALAMING\",\"DUKIN\",\"KOORDA\",\"LAKE MARGARETTE\",\"MOLLERIN\",\"NEWCARLBEON\"]"
+  },
+  {
+    "PostCode": "6476",
+    "Suburbs": "[\"GABBIN\"]"
+  },
+  {
+    "PostCode": "6477",
+    "Suburbs": "[\"BENCUBBIN\",\"WELBUNGIN\"]"
+  },
+  {
+    "PostCode": "6479",
+    "Suburbs": "[\"BARBALIN\",\"BONNIE ROCK\",\"DANDANNING\",\"ELACHBUTTING\",\"KARLONING\",\"LAKE BROWN\",\"MUKINBUDIN\",\"WATTONING\",\"WILGOYNE\"]"
+  },
+  {
+    "PostCode": "6480",
+    "Suburbs": "[\"NUKARNI\"]"
+  },
+  {
+    "PostCode": "6484",
+    "Suburbs": "[\"BULLFINCH\",\"ENNUIN\",\"LAKE DEBORAH\"]"
+  },
+  {
+    "PostCode": "6485",
+    "Suburbs": "[\"COWCOWING\",\"KORRELOCKING\",\"NALKAIN\",\"NEMBUDDING\",\"WYALKATCHEM\"]"
+  },
+  {
+    "PostCode": "6487",
+    "Suburbs": "[\"NORTH YELBENI\",\"SOUTH YELBENI\",\"YELBENI\"]"
+  },
+  {
+    "PostCode": "6488",
+    "Suburbs": "[\"NORTH TRAYNING\",\"SOUTH TRAYNING\",\"TRAYNING\"]"
+  },
+  {
+    "PostCode": "6489",
+    "Suburbs": "[\"KUNUNOPPIN\",\"NORTH KUNUNOPPIN\",\"SOUTH KUNUNOPPIN\"]"
+  },
+  {
+    "PostCode": "6490",
+    "Suburbs": "[\"BURRAN ROCK\",\"CHANDLER\",\"ELABBIN\",\"KWELKAN\",\"NUNGARIN\",\"TALGOMINE\"]"
+  },
+  {
+    "PostCode": "6501",
+    "Suburbs": "[\"MUCHEA\"]"
+  },
+  {
+    "PostCode": "6502",
+    "Suburbs": "[\"BINDOON\",\"BINDOON TRAINING AREA\"]"
+  },
+  {
+    "PostCode": "6503",
+    "Suburbs": "[\"BAMBUN\",\"BEERMULLAH\",\"BOONANARRING\",\"BREERA\",\"COONABIDGEE\",\"COWALLA\",\"CULLALLA\",\"GINGIN\",\"GINGINUP\",\"GRANVILLE\",\"LENNARD BROOK\",\"MINDARRA\",\"MOONDAH\",\"MOORE RIVER NATIONAL PARK\",\"MUCKENBURRA\",\"NEERGABBY\",\"ORANGE SPRINGS\",\"RED GULLY\",\"WANERIE\",\"YEAL\"]"
+  },
+  {
+    "PostCode": "6504",
+    "Suburbs": "[\"MOOLIABEENEE\"]"
+  },
+  {
+    "PostCode": "6505",
+    "Suburbs": "[\"WANNAMAL\"]"
+  },
+  {
+    "PostCode": "6506",
+    "Suburbs": "[\"MOGUMBER\"]"
+  },
+  {
+    "PostCode": "6507",
+    "Suburbs": "[\"CATABY\",\"COOLJARLOO\",\"DANDARAGAN\",\"MIMEGARRA\",\"REGANS FORD\",\"YATHROO\"]"
+  },
+  {
+    "PostCode": "6509",
+    "Suburbs": "[\"GLENTROMIE\",\"NEW NORCIA\",\"WADDINGTON\",\"YARAWINDAH\"]"
+  },
+  {
+    "PostCode": "6510",
+    "Suburbs": "[\"BARBERTON\",\"BERKSHIRE VALLEY\",\"GILLINGARRA\",\"KOOJAN\",\"MOORA\",\"WALEBING\"]"
+  },
+  {
+    "PostCode": "6511",
+    "Suburbs": "[\"CERVANTES\"]"
+  },
+  {
+    "PostCode": "6512",
+    "Suburbs": "[\"COOMBERDALE\",\"NAMBAN\"]"
+  },
+  {
+    "PostCode": "6513",
+    "Suburbs": "[\"GUNYIDI\",\"WATHEROO\"]"
+  },
+  {
+    "PostCode": "6514",
+    "Suburbs": "[\"GREEN HEAD\",\"LEEMAN\"]"
+  },
+  {
+    "PostCode": "6515",
+    "Suburbs": "[\"COOROW\",\"EGANU\",\"MARCHAGEE\",\"WADDY FOREST\"]"
+  },
+  {
+    "PostCode": "6516",
+    "Suburbs": "[\"JURIEN BAY\"]"
+  },
+  {
+    "PostCode": "6517",
+    "Suburbs": "[\"CARNAMAH\"]"
+  },
+  {
+    "PostCode": "6518",
+    "Suburbs": "[\"ENEABBA\",\"WARRADARGE\"]"
+  },
+  {
+    "PostCode": "6519",
+    "Suburbs": "[\"ARRINO\",\"ARROWSMITH EAST\",\"DUDAWA\",\"KADATHINNI\",\"THREE SPRINGS\",\"WOMARDEN\"]"
+  },
+  {
+    "PostCode": "6521",
+    "Suburbs": "[\"BADGINGARRA\",\"BOOTHENDARRA\",\"GREY\",\"HILL RIVER\",\"NAMBUNG\"]"
+  },
+  {
+    "PostCode": "6522",
+    "Suburbs": "[\"BUNDANOON\",\"HOLMWOOD\",\"IKEWA\",\"LOCKIER\",\"MINGENEW\",\"MOORIARY\",\"MOUNT BUDD\",\"NANGETTY\",\"YANDANOOKA\",\"YARRAGADEE\"]"
+  },
+  {
+    "PostCode": "6525",
+    "Suburbs": "[\"ALLANOOKA\",\"ARROWSMITH\",\"BONNIEFIELD\",\"BOOKARA\",\"DONGARA\",\"IRWIN\",\"MILO\",\"MOUNT ADAMS\",\"MOUNT HORNER\",\"PORT DENISON\",\"SPRINGFIELD\",\"YARDARINO\"]"
+  },
+  {
+    "PostCode": "6528",
+    "Suburbs": "[\"MOUNT HILL\",\"SOUTH GREENOUGH\",\"WALKAWAY\"]"
+  },
+  {
+    "PostCode": "6530",
+    "Suburbs": "[\"BEACHLANDS\",\"BERESFORD\",\"BLUFF POINT\",\"GERALDTON\",\"HOUTMAN ABROLHOS\",\"KARLOO\",\"MAHOMETS FLATS\",\"MERU\",\"MORESBY\",\"MOUNT TARCOOLA\",\"RANGEWAY\",\"SPALDING\",\"STRATHALBYN\",\"SUNSET BEACH\",\"TARCOOLA BEACH\",\"UTAKARRA\",\"WAGGRAKINE\",\"WANDINA\",\"WEBBERTON\",\"WEST END\",\"WONTHELLA\",\"WOORREE\"]"
+  },
+  {
+    "PostCode": "6532",
+    "Suburbs": "[\"AJANA\",\"BINNU\",\"BOOTENAL\",\"BRINGO\",\"BULLER\",\"BURMA ROAD\",\"CAPE BURNEY\",\"CARRARANG\",\"COBURN\",\"COOLCALALAYA\",\"DARTMOOR\",\"DEEPDALE\",\"DINDILOA\",\"DRUMMOND COVE\",\"DURAWAH\",\"EAST CHAPMAN\",\"EAST NABAWA\",\"EAST YUNA\",\"ELLENDALE\",\"ERADU\",\"ERADU SOUTH\",\"EURARDY\",\"GEORGINA\",\"GLENFIELD\",\"GREENOUGH\",\"HAMELIN POOL\",\"HICKETY\",\"HOWATHARRA\",\"KOJARENA\",\"MARRAH\",\"MEADOW\",\"MINNENOOKA\",\"MOONYOONOOKA\",\"MOUNT ERIN\",\"NABAWA\",\"NANSON\",\"NARALING\",\"NARNGULU\",\"NARRA TARRA\",\"NERREN NERREN\",\"NOLBA\",\"NORTH ERADU\",\"NORTHERN GULLY\",\"OAKAJEE\",\"ROCKWELL\",\"RUDDS GULLY\",\"SANDSPRINGS\",\"SOUTH YUNA\",\"TAMALA\",\"TIBRADDEN\",\"TOOLONGA\",\"VALENTINE\",\"WANDANA\",\"WEST BINNU\",\"WHITE PEAK\",\"WICHERINA\",\"WICHERINA SOUTH\",\"YETNA\",\"YUNA\"]"
+  },
+  {
+    "PostCode": "6535",
+    "Suburbs": "[\"ALMA\",\"BOWES\",\"EAST BOWES\",\"GREGORY\",\"HORROCKS\",\"ISSEKA\",\"NORTHAMPTON\",\"OGILVIE\",\"SANDY GULLY\",\"YALLABATHARRA\"]"
+  },
+  {
+    "PostCode": "6536",
+    "Suburbs": "[\"KALBARRI\",\"KALBARRI NATIONAL PARK\",\"ZUYTDORP\"]"
+  },
+  {
+    "PostCode": "6537",
+    "Suburbs": "[\"DENHAM\",\"DIRK HARTOG ISLAND\",\"FRANCOIS PERON NATIONAL PARK\",\"MONKEY MIA\",\"NANGA\",\"SHARK BAY\",\"USELESS LOOP\"]"
+  },
+  {
+    "PostCode": "6556",
+    "Suburbs": "[\"BEECHINA\",\"CHIDLOW\",\"GORRIE\",\"MALMALLING\",\"THE LAKES\"]"
+  },
+  {
+    "PostCode": "6558",
+    "Suburbs": "[\"WOOROLOO\"]"
+  },
+  {
+    "PostCode": "6560",
+    "Suburbs": "[\"WUNDOWIE\"]"
+  },
+  {
+    "PostCode": "6562",
+    "Suburbs": "[\"BAKERS HILL\",\"COPLEY\",\"WOOTTATING\"]"
+  },
+  {
+    "PostCode": "6564",
+    "Suburbs": "[\"CLACKLINE\"]"
+  },
+  {
+    "PostCode": "6566",
+    "Suburbs": "[\"BEJOORDING\",\"CARANI\",\"COONDLE\",\"CULHAM\",\"DUMBARTON\",\"HODDYS WELL\",\"KATRINE\",\"NUNILE\",\"TOODYAY\",\"WEST TOODYAY\"]"
+  },
+  {
+    "PostCode": "6567",
+    "Suburbs": "[\"DEWARS POOL\",\"JULIMAR\",\"MOONDYNE\"]"
+  },
+  {
+    "PostCode": "6568",
+    "Suburbs": "[\"BOLGART\",\"WATTENING\",\"WYENING\"]"
+  },
+  {
+    "PostCode": "6569",
+    "Suburbs": "[\"CALINGIRI\",\"OLD PLAINS\"]"
+  },
+  {
+    "PostCode": "6571",
+    "Suburbs": "[\"YERECOIN\"]"
+  },
+  {
+    "PostCode": "6572",
+    "Suburbs": "[\"PIAWANING\"]"
+  },
+  {
+    "PostCode": "6574",
+    "Suburbs": "[\"BINDI BINDI\",\"GABALONG\"]"
+  },
+  {
+    "PostCode": "6575",
+    "Suburbs": "[\"MILING\"]"
+  },
+  {
+    "PostCode": "6603",
+    "Suburbs": "[\"KONNONGORRING\",\"LAKE HINDS\",\"LAKE NINAN\",\"MOCARDY\",\"WONGAN HILLS\"]"
+  },
+  {
+    "PostCode": "6605",
+    "Suburbs": "[\"KONDUT\"]"
+  },
+  {
+    "PostCode": "6606",
+    "Suburbs": "[\"BALLIDU\",\"EAST BALLIDU\",\"WEST BALLIDU\"]"
+  },
+  {
+    "PostCode": "6608",
+    "Suburbs": "[\"EAST DAMBORING\",\"MARNE\",\"PITHARA\"]"
+  },
+  {
+    "PostCode": "6609",
+    "Suburbs": "[\"DALWALLINU\",\"NUGADONG\",\"XANTIPPE\"]"
+  },
+  {
+    "PostCode": "6612",
+    "Suburbs": "[\"JIBBERDING\",\"MIAMOON\",\"PAYNES FIND\",\"WUBIN\"]"
+  },
+  {
+    "PostCode": "6613",
+    "Suburbs": "[\"BUNTINE\"]"
+  },
+  {
+    "PostCode": "6614",
+    "Suburbs": "[\"MAYA\"]"
+  },
+  {
+    "PostCode": "6616",
+    "Suburbs": "[\"LATHAM\"]"
+  },
+  {
+    "PostCode": "6620",
+    "Suburbs": "[\"PERENJORI\",\"ROTHSAY\"]"
+  },
+  {
+    "PostCode": "6623",
+    "Suburbs": "[\"BOWGADA\",\"BUNJIL\",\"GUTHA\",\"KOOLANOOKA\",\"MORAWA\",\"PINTHARUKA\"]"
+  },
+  {
+    "PostCode": "6625",
+    "Suburbs": "[\"MERKANOOKA\"]"
+  },
+  {
+    "PostCode": "6627",
+    "Suburbs": "[\"CANNA\"]"
+  },
+  {
+    "PostCode": "6628",
+    "Suburbs": "[\"TARDUN\"]"
+  },
+  {
+    "PostCode": "6630",
+    "Suburbs": "[\"DEVILS CREEK\",\"MULLEWA\",\"MURCHISON\",\"NERRAMYNE\",\"NUNIERRA\",\"WEST CASUARINAS\",\"WONGOONDY\",\"WOOLGORONG\"]"
+  },
+  {
+    "PostCode": "6631",
+    "Suburbs": "[\"PINDAR\"]"
+  },
+  {
+    "PostCode": "6632",
+    "Suburbs": "[\"AMBANIA\",\"TENINDEWA\"]"
+  },
+  {
+    "PostCode": "6635",
+    "Suburbs": "[\"SOUTH MURCHISON\",\"YALGOO\"]"
+  },
+  {
+    "PostCode": "6638",
+    "Suburbs": "[\"COOLADAR HILL\",\"DAGGAR HILLS\",\"MOUNT MAGNET\",\"PAYNESVILLE\"]"
+  },
+  {
+    "PostCode": "6639",
+    "Suburbs": "[\"SANDSTONE\"]"
+  },
+  {
+    "PostCode": "6640",
+    "Suburbs": "[\"CUE\",\"EAST MURCHISON\",\"LAKE AUSTIN\",\"REEDY\",\"WELD RANGE\"]"
+  },
+  {
+    "PostCode": "6642",
+    "Suburbs": "[\"ANGELO RIVER\",\"CAPRICORN\",\"KARALUNDI\",\"KUMARINA\",\"MEEKATHARRA\",\"PEAK HILL\"]"
+  },
+  {
+    "PostCode": "6646",
+    "Suburbs": "[\"LAKE CARNEGIE\",\"LITTLE SANDY DESERT\",\"WILUNA\"]"
+  },
+  {
+    "PostCode": "6701",
+    "Suburbs": "[\"BABBAGE ISLAND\",\"BERNIER ISLAND\",\"BROCKMAN\",\"BROWN RANGE\",\"CARBLA\",\"CARNARVON\",\"CORAL BAY\",\"DORRE ISLAND\",\"EAST CARNARVON\",\"GILROYD\",\"GREYS PLAIN\",\"INGGARDA\",\"KENNEDY RANGE\",\"KINGSFORD\",\"LYNDON\",\"MACLEOD\",\"MASSEY BAY\",\"MINILYA\",\"MORGANTOWN\",\"NINGALOO\",\"NORTH PLANTATIONS\",\"SOUTH CARNARVON\",\"SOUTH PLANTATIONS\",\"TALISKER\",\"WOODLEIGH\",\"WOORAMEL\",\"YALARDY\",\"YANDOO CREEK\"]"
+  },
+  {
+    "PostCode": "6705",
+    "Suburbs": "[\"EAST LYONS RIVER\",\"GASCOYNE JUNCTION\",\"GASCOYNE RIVER\",\"WEST LYONS RIVER\"]"
+  },
+  {
+    "PostCode": "6707",
+    "Suburbs": "[\"CAPE RANGE NATIONAL PARK\",\"EXMOUTH\",\"EXMOUTH GULF\",\"LEARMONTH\",\"NORTH WEST CAPE\"]"
+  },
+  {
+    "PostCode": "6710",
+    "Suburbs": "[\"CANE\",\"ONSLOW\",\"PEEDAMULLA\",\"TALANDJI\",\"YANNARIE\"]"
+  },
+  {
+    "PostCode": "6711",
+    "Suburbs": "[\"THEVENARD ISLAND\"]"
+  },
+  {
+    "PostCode": "6712",
+    "Suburbs": "[\"BARROW ISLAND\"]"
+  },
+  {
+    "PostCode": "6713",
+    "Suburbs": "[\"DAMPIER\",\"DAMPIER ARCHIPELAGO\"]"
+  },
+  {
+    "PostCode": "6714",
+    "Suburbs": "[\"ANTONYMYRE\",\"BALLA BALLA\",\"BAYNTON\",\"BULGARRA\",\"BURRUP\",\"CLEAVERVILLE\",\"COOYA POOYA\",\"GAP RIDGE\",\"GNOOREA\",\"KARRATHA\",\"KARRATHA INDUSTRIAL ESTATE\",\"MAITLAND\",\"MARDIE\",\"MILLARS WELL\",\"MOUNT ANKETELL\",\"MULATAGA\",\"NICKOL\",\"PEGS CREEK\",\"SHERLOCK\",\"STOVE HILL\"]"
+  },
+  {
+    "PostCode": "6716",
+    "Suburbs": "[\"FORTESCUE\",\"HAMERSLEY RANGE\",\"MILLSTREAM\",\"PANNAWONICA\"]"
+  },
+  {
+    "PostCode": "6718",
+    "Suburbs": "[\"ROEBOURNE\",\"WHIM CREEK\"]"
+  },
+  {
+    "PostCode": "6720",
+    "Suburbs": "[\"COSSACK\",\"POINT SAMSON\",\"WICKHAM\"]"
+  },
+  {
+    "PostCode": "6721",
+    "Suburbs": "[\"INDEE\",\"MUNDABULLANGANA\",\"PARDOO\",\"PORT HEDLAND\",\"REDBANK\",\"STRELLEY\",\"WALLAREENYA\",\"WEDGEFIELD\"]"
+  },
+  {
+    "PostCode": "6722",
+    "Suburbs": "[\"BOODARIE\",\"DE GREY\",\"FINUCANE\",\"PIPPINGARRA\",\"SOUTH HEDLAND\"]"
+  },
+  {
+    "PostCode": "6725",
+    "Suburbs": "[\"BILINGURR\",\"BROOME\",\"DAMPIER PENINSULA\",\"DJUGUN\",\"EIGHTY MILE BEACH\",\"GINGERAH\",\"LAGRANGE\",\"MINYIRR\",\"ROEBUCK\",\"WATERBANK\"]"
+  },
+  {
+    "PostCode": "6726",
+    "Suburbs": "[\"CABLE BEACH\"]"
+  },
+  {
+    "PostCode": "6728",
+    "Suburbs": "[\"CAMBALLIN\",\"DERBY\",\"GEEGULLY CREEK\",\"KIMBOLTON\",\"KING LEOPOLD RANGES\",\"MEDA\",\"ST GEORGE RANGES\",\"WILLARE\"]"
+  },
+  {
+    "PostCode": "6733",
+    "Suburbs": "[\"KOOLAN ISLAND\"]"
+  },
+  {
+    "PostCode": "6740",
+    "Suburbs": "[\"DRYSDALE RIVER\",\"KALUMBURU\",\"MITCHELL PLATEAU\",\"OOMBULGURRI\",\"PRINCE REGENT RIVER\",\"WYNDHAM\"]"
+  },
+  {
+    "PostCode": "6743",
+    "Suburbs": "[\"CAMBRIDGE GULF\",\"DURACK\",\"GIBB\",\"KUNUNURRA\",\"LAKE ARGYLE\",\"WARMUN\"]"
+  },
+  {
+    "PostCode": "6751",
+    "Suburbs": "[\"CHICHESTER\",\"INNAWANGA\",\"JUNA DOWNS\",\"KARIJINI\",\"MOUNT SHEILA\",\"MULGA DOWNS\",\"NANUTARRA\",\"ROCKLEA\",\"TOM PRICE\",\"WITTENOOM\"]"
+  },
+  {
+    "PostCode": "6753",
+    "Suburbs": "[\"NEWMAN\"]"
+  },
+  {
+    "PostCode": "6754",
+    "Suburbs": "[\"PARABURDOO\"]"
+  },
+  {
+    "PostCode": "6758",
+    "Suburbs": "[\"NULLAGINE\"]"
+  },
+  {
+    "PostCode": "6760",
+    "Suburbs": "[\"MARBLE BAR\"]"
+  },
+  {
+    "PostCode": "6762",
+    "Suburbs": "[\"TELFER\"]"
+  },
+  {
+    "PostCode": "6765",
+    "Suburbs": "[\"FITZROY CROSSING\",\"MOUNT HARDMAN\"]"
+  },
+  {
+    "PostCode": "6770",
+    "Suburbs": "[\"HALLS CREEK\",\"MCBEATH\",\"MUELLER RANGES\",\"ORD RIVER\",\"PURNULULU\",\"STURT CREEK\",\"TANAMI\"]"
+  },
+  {
+    "PostCode": "6798",
+    "Suburbs": "[\"CHRISTMAS ISLAND\"]"
+  },
+  {
+    "PostCode": "6799",
+    "Suburbs": "[\"HOME ISLAND COCOS (KEELING) ISLANDS\",\"WEST ISLAND COCOS (KEELING) ISLANDS\"]"
+  }
+]
