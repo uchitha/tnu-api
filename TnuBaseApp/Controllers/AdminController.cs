@@ -28,7 +28,7 @@ namespace TnuBaseApp.Controllers
             var end = int.Parse(ConfigurationManager.AppSettings["endPostCode"]);
 
             var postCodeDataAsJson = fetcher.GetPostCodes(start,end); //WA Only
-            var postCodeFilePath = HttpContext.Server.MapPath("~/" + AppConstants.PostCodeFile);
+            var postCodeFilePath = HttpContext.Server.MapPath("~/App_Data/" + AppConstants.PostCodeFile);
             var count = fetcher.UpdatePostCodeInfo(postCodeDataAsJson,postCodeFilePath);
             ViewBag.Message = string.Format("Updated {0} locations", count);
             return View("Index");
@@ -37,8 +37,8 @@ namespace TnuBaseApp.Controllers
         public ActionResult LoadAllInterruptionInfo()
         {
             var fetcher = new PowerInterruptionFetcher();
-            var postCodeFilePath = HttpContext.Server.MapPath("~/" + AppConstants.PostCodeFile);
-            var interruptionFilePath = HttpContext.Server.MapPath("~/" + AppConstants.InterruptionInfoFile);
+            var postCodeFilePath = HttpContext.Server.MapPath("~/App_Data/" + AppConstants.PostCodeFile);
+            var interruptionFilePath = HttpContext.Server.MapPath("~/App_Data/" + AppConstants.InterruptionInfoFile);
 
             var interruptionDataAsJson = fetcher.FetchInterruptions(postCodeFilePath);
             var count = fetcher.UpdateInterruptionInfo(interruptionDataAsJson, interruptionFilePath);
@@ -49,8 +49,8 @@ namespace TnuBaseApp.Controllers
         public ActionResult LoadCurrentInterruptionInfo()
         {
             var fetcher = new PowerInterruptionFetcher();
-            var interruptionFilePath = HttpContext.Server.MapPath("~/" + AppConstants.InterruptionInfoFile);
-            var currentInterruptionFilePath = HttpContext.Server.MapPath("~/" + AppConstants.CurrentInterruptionInfoFile);
+            var interruptionFilePath = HttpContext.Server.MapPath("~/App_Data/" + AppConstants.InterruptionInfoFile);
+            var currentInterruptionFilePath = HttpContext.Server.MapPath("~/App_Data/" + AppConstants.CurrentInterruptionInfoFile);
 
             var currentInterruptionDataAsJson = fetcher.FetchCurrentIntteruptions(interruptionFilePath);
 
