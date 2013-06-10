@@ -181,10 +181,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Order.cs" />
+    <Compile Include="Models\InterruptionInfo.cs" />
     <Compile Include="PostCodeFetcher.cs" />
     <Compile Include="PowerInterruptionFetcher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WpPiScraper.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\postcodes.txt" />
