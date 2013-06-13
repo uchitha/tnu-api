@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Threading.Tasks;
 using System.Web;
 using TnuBaseApp.Models;
 
@@ -21,10 +22,12 @@ namespace TnuBaseApp
             IsPostCodeSearch = int.TryParse(location, out postCode);
         }
 
-        public IQueryable<InterruptionInfo> GetInteruptionData()
+        public async Task<IQueryable<InterruptionInfo>> GetInteruptionData()
         {
             var doc = new HtmlDocument();
-            doc.LoadHtml(LoadPage());
+            var html = await LoadPage();
+
+            doc.LoadHtml(html);
 
             var details = doc.DocumentNode.SelectNodes("//table/tbody/tr");
 
@@ -49,18 +52,18 @@ namespace TnuBaseApp
             return locationList.AsQueryable();
         }
 
-        private string LoadPage()
+        private async Task<string> LoadPage()
         {
+            var content = new MemoryStream();
             var request = WebRequest.Create(_url);
-            var response = request.GetResponse();
-            var data = response.GetResponseStream();
-            string html = string.Empty;
-            using (var sr = new StreamReader(data))
+            using (WebResponse response = await request.GetResponseAsync())
             {
-                html = sr.ReadToEnd();
+                using (Stream responseStream = response.GetResponseStream())
+                {
+                    await responseStream.CopyToAsync(content);
+                }
             }
-            return html;
-
+            return System.Text.Encoding.Default.GetString(content.ToArray());
         }
 
     }

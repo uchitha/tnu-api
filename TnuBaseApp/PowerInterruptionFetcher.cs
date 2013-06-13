@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Web;
 using TnuBaseApp.Controllers;
 
@@ -11,7 +12,9 @@ namespace TnuBaseApp
 {
     public class PowerInterruptionFetcher
     {
-        public JArray FetchInterruptions(string postCodeFilePath)
+
+
+        public async Task<JArray> FetchInterruptions(string postCodeFilePath)
         {
 
             var postCodeData = File.ReadAllText(postCodeFilePath);
@@ -23,10 +26,12 @@ namespace TnuBaseApp
                 var location = (JObject)instance;
                 var postCode = location.GetValue("PostCode").ToString();
                 var scraper = new WpPiScraper(postCode);
-                var interruptionsInfoForPostCode = scraper.GetInteruptionData();
+
+                var interruptionsInfoForPostCode = await scraper.GetInteruptionData();
+
                 if (interruptionsInfoForPostCode.Any())
                 {
-                    var interruptionInfo = scraper.GetInteruptionData().ToList();
+                    var interruptionInfo = interruptionsInfoForPostCode.ToList();
                     foreach (var interruption in interruptionInfo)
                     {
                         var asJson = JsonConvert.SerializeObject(interruption);
@@ -39,15 +44,8 @@ namespace TnuBaseApp
             return interruptionList;
         }
 
-        public List<JToken> FetchCurrentIntteruptions(string interruptionInfoFilePath)
-        {
-            var interruptionInfo = File.ReadAllText(interruptionInfoFilePath);
-            var locations = (JArray)JsonConvert.DeserializeObject(interruptionInfo);
 
-            return locations.Where(l => l.Value<bool>("IsInterrupted")).ToList();
-        } 
-
-        public int UpdateInterruptionInfo(JArray info, string interruptionInfoFilePath)
+        public int UpdateInterruptionInfo(JArray info, string interruptionInfoFilePath,string currentInterruptionsInfoFilePath)
         {
             var parentJson = new JArray();
             foreach (var interruption in info) //Converting one by one so that if any one location fails, others are not affected
@@ -68,13 +66,22 @@ namespace TnuBaseApp
             }
             var fullIntteruptionInfo = JsonConvert.SerializeObject(parentJson, Formatting.Indented);
             File.WriteAllText(interruptionInfoFilePath, fullIntteruptionInfo);
+            
+            UpdateCurrentInterruptionInfo(interruptionInfoFilePath,currentInterruptionsInfoFilePath);
+
             return info.Count();
 
         }
 
-        public int UpdateCurrentInterruptionInfo(IEnumerable<JToken> info,string currentInterruptionsInfoFilePath)
+        private int UpdateCurrentInterruptionInfo(string interruptionInfoFilePath,string currentInterruptionsInfoFilePath)
         {
             //var interruptionsAsJson = JsonConvert.SerializeObject(info, Formatting.Indented);
+
+
+            var interruptionInfo = File.ReadAllText(interruptionInfoFilePath);
+            var locations = (JArray)JsonConvert.DeserializeObject(interruptionInfo);
+
+            var info = locations.Where(l => l.Value<bool>("IsInterrupted")).ToList();
 
             var parentJson = new JArray();
             foreach (var location in info)
@@ -95,6 +102,14 @@ namespace TnuBaseApp
             return info.Count();
         }
 
-        
+      
+
+        public List<JToken> FetchCurrentIntteruptions(string currentInterruptionsInfoFilePath)
+        {
+            var interruptionInfo = File.ReadAllText(currentInterruptionsInfoFilePath);
+            var locations = (JArray)JsonConvert.DeserializeObject(interruptionInfo);
+
+            return locations.ToList();
+        } 
     }
 }

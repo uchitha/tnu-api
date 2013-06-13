@@ -181,6 +181,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\InterruptionInfo.cs" />
+    <Compile Include="Models\Order.cs" />
     <Compile Include="PostCodeFetcher.cs" />
     <Compile Include="PowerInterruptionFetcher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
