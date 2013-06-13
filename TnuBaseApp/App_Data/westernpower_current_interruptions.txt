@@ -1,18 +1,322 @@
 [
   {
-    "Name": "CRAIGIE",
-    "PostCode": "6025",
-    "Details": "Estimated Restoration: 08/06/2013 02:00",
+    "Name": "BANKSIA GROVE",
+    "PostCode": "6031",
+    "Details": "Estimated Restoration: 13/06/2013 13:30",
     "Summary": "Service Down",
-    "RestorationTime": "08/06/2013 02:00",
+    "RestorationTime": "13/06/2013 13:30",
     "IsInterrupted": true
   },
   {
-    "Name": "WALKAWAY",
-    "PostCode": "6528",
-    "Details": "Estimated Restoration: Unknown",
+    "Name": "CARRAMAR",
+    "PostCode": "6031",
+    "Details": "Estimated Restoration: 13/06/2013 12:30",
     "Summary": "Service Down",
-    "RestorationTime": "Unknown",
+    "RestorationTime": "13/06/2013 12:30",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "NEERABUP",
+    "PostCode": "6031",
+    "Details": "Estimated Restoration: 13/06/2013 12:30",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 12:30",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "JOONDANNA",
+    "PostCode": "6060",
+    "Details": "Estimated Restoration: 13/06/2013 15:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 15:00",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "MARIGINIUP",
+    "PostCode": "6065",
+    "Details": "Estimated Restoration: 13/06/2013 13:30",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 13:30",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "BICKLEY",
+    "PostCode": "6076",
+    "Details": "Estimated Restoration: 13/06/2013 13:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 13:00",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "KALAMUNDA",
+    "PostCode": "6076",
+    "Details": "Estimated Restoration: 13/06/2013 13:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 13:00",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "LESMURDIE",
+    "PostCode": "6076",
+    "Details": "Estimated Restoration: 13/06/2013 13:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 13:00",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "WALLISTON",
+    "PostCode": "6076",
+    "Details": "Estimated Restoration: 13/06/2013 13:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 13:00",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "STONEVILLE",
+    "PostCode": "6081",
+    "Details": "Estimated Restoration: 13/06/2013 14:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 14:00",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "GIDGEGANNUP",
+    "PostCode": "6083",
+    "Details": "Estimated Restoration: 13/06/2013 13:30",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 13:30",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "MORANGUP",
+    "PostCode": "6083",
+    "Details": "Estimated Restoration: 13/06/2013 12:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 12:00",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "ROLEYSTONE",
+    "PostCode": "6111",
+    "Details": "Estimated Restoration: 13/06/2013 13:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 13:00",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "SHELLEY",
+    "PostCode": "6148",
+    "Details": "Estimated Restoration: 13/06/2013 11:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 11:00",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "KWINANA BEACH",
+    "PostCode": "6167",
+    "Details": "Estimated Restoration: 13/06/2013 11:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 11:00",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "PINJARRA",
+    "PostCode": "6208",
+    "Details": "Estimated Restoration: 13/06/2013 12:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 12:00",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "RAVENSWOOD",
+    "PostCode": "6208",
+    "Details": "Estimated Restoration: 13/06/2013 12:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 12:00",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "SAN REMO",
+    "PostCode": "6210",
+    "Details": "Estimated Restoration: 13/06/2013 12:30",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 12:30",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "HARVEY",
+    "PostCode": "6220",
+    "Details": "Estimated Restoration: 13/06/2013 12:30",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 12:30",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "UDUC",
+    "PostCode": "6220",
+    "Details": "Estimated Restoration: 13/06/2013 12:30",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 12:30",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "COLLIE",
+    "PostCode": "6225",
+    "Details": "Estimated Restoration: 13/06/2013 14:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 14:00",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "CHARLEY CREEK",
+    "PostCode": "6239",
+    "Details": "Estimated Restoration: 13/06/2013 13:30",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 13:30",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "DONNYBROOK",
+    "PostCode": "6239",
+    "Details": "Estimated Restoration: 13/06/2013 13:30",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 13:30",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "NANNUP",
+    "PostCode": "6275",
+    "Details": "Estimated Restoration: 13/06/2013 13:30",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 13:30",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "LUDLOW",
+    "PostCode": "6280",
+    "Details": "Estimated Restoration: 13/06/2013 13:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 13:00",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "WEST PINGELLY",
+    "PostCode": "6308",
+    "Details": "Estimated Restoration: 13/06/2013 15:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 15:00",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "BALLAYING",
+    "PostCode": "6315",
+    "Details": "Estimated Restoration: 13/06/2013 13:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 13:00",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "WAGIN",
+    "PostCode": "6315",
+    "Details": "Estimated Restoration: 13/06/2013 13:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 13:00",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "WEDGECARRUP",
+    "PostCode": "6315",
+    "Details": "Estimated Restoration: 13/06/2013 13:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 13:00",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "MARBELUP",
+    "PostCode": "6330",
+    "Details": "Estimated Restoration: 13/06/2013 12:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 12:00",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "GAIRDNER",
+    "PostCode": "6337",
+    "Details": "Estimated Restoration: 13/06/2013 11:30",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 11:30",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "BEAUFORT RIVER",
+    "PostCode": "6394",
+    "Details": "Estimated Restoration: 13/06/2013 13:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 13:00",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "ORANGE SPRINGS",
+    "PostCode": "6503",
+    "Details": "Estimated Restoration: 13/06/2013 14:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 14:00",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "RED GULLY",
+    "PostCode": "6503",
+    "Details": "Estimated Restoration: 13/06/2013 14:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 14:00",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "MOGUMBER",
+    "PostCode": "6506",
+    "Details": "Estimated Restoration: 13/06/2013 14:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 14:00",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "REGANS FORD",
+    "PostCode": "6507",
+    "Details": "Estimated Restoration: 13/06/2013 14:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 14:00",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "MOUNT HILL",
+    "PostCode": "6528",
+    "Details": "Estimated Restoration: 13/06/2013 14:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 14:00",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "DUMBARTON",
+    "PostCode": "6566",
+    "Details": "Estimated Restoration: 13/06/2013 12:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 12:00",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "HODDYS WELL",
+    "PostCode": "6566",
+    "Details": "Estimated Restoration: 13/06/2013 12:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 12:00",
+    "IsInterrupted": true
+  },
+  {
+    "Name": "TOODYAY",
+    "PostCode": "6566",
+    "Details": "Estimated Restoration: 13/06/2013 12:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 12:00",
     "IsInterrupted": true
   }
 ]
