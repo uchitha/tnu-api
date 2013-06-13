@@ -394,10 +394,10 @@
   {
     "Name": "CRAIGIE",
     "PostCode": "6025",
-    "Details": "Estimated Restoration: 08/06/2013 02:00",
-    "Summary": "Service Down",
-    "RestorationTime": "08/06/2013 02:00",
-    "IsInterrupted": true
+    "Details": "No known interruptions",
+    "Summary": "No Interruptions",
+    "RestorationTime": "N/A",
+    "IsInterrupted": false
   },
   {
     "Name": "HILLARYS",
@@ -586,26 +586,26 @@
   {
     "Name": "BANKSIA GROVE",
     "PostCode": "6031",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 13:30",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 13:30",
+    "IsInterrupted": true
   },
   {
     "Name": "CARRAMAR",
     "PostCode": "6031",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 12:30",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 12:30",
+    "IsInterrupted": true
   },
   {
     "Name": "NEERABUP",
     "PostCode": "6031",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 12:30",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 12:30",
+    "IsInterrupted": true
   },
   {
     "Name": "NOWERGUP",
@@ -1082,10 +1082,10 @@
   {
     "Name": "JOONDANNA",
     "PostCode": "6060",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 15:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 15:00",
+    "IsInterrupted": true
   },
   {
     "Name": "TUART HILL",
@@ -1266,10 +1266,10 @@
   {
     "Name": "MARIGINIUP",
     "PostCode": "6065",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 13:30",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 13:30",
+    "IsInterrupted": true
   },
   {
     "Name": "MELALEUCA",
@@ -1450,10 +1450,10 @@
   {
     "Name": "BICKLEY",
     "PostCode": "6076",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 13:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 13:00",
+    "IsInterrupted": true
   },
   {
     "Name": "CARMEL",
@@ -1482,18 +1482,18 @@
   {
     "Name": "KALAMUNDA",
     "PostCode": "6076",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 13:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 13:00",
+    "IsInterrupted": true
   },
   {
     "Name": "LESMURDIE",
     "PostCode": "6076",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 13:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 13:00",
+    "IsInterrupted": true
   },
   {
     "Name": "PAULLS VALLEY",
@@ -1530,10 +1530,10 @@
   {
     "Name": "WALLISTON",
     "PostCode": "6076",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 13:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 13:00",
+    "IsInterrupted": true
   },
   {
     "Name": "PARKERVILLE",
@@ -1546,10 +1546,10 @@
   {
     "Name": "STONEVILLE",
     "PostCode": "6081",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 14:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 14:00",
+    "IsInterrupted": true
   },
   {
     "Name": "BAILUP",
@@ -1570,18 +1570,18 @@
   {
     "Name": "GIDGEGANNUP",
     "PostCode": "6083",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 13:30",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 13:30",
+    "IsInterrupted": true
   },
   {
     "Name": "MORANGUP",
     "PostCode": "6083",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 12:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 12:00",
+    "IsInterrupted": true
   },
   {
     "Name": "AVON VALLEY NATIONAL PARK",
@@ -1914,10 +1914,10 @@
   {
     "Name": "ROLEYSTONE",
     "PostCode": "6111",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 13:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 13:00",
+    "IsInterrupted": true
   },
   {
     "Name": "WESTFIELD",
@@ -2162,10 +2162,10 @@
   {
     "Name": "SHELLEY",
     "PostCode": "6148",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 11:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 11:00",
+    "IsInterrupted": true
   },
   {
     "Name": "BULL CREEK",
@@ -2666,10 +2666,10 @@
   {
     "Name": "KWINANA BEACH",
     "PostCode": "6167",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 11:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 11:00",
+    "IsInterrupted": true
   },
   {
     "Name": "KWINANA TOWN CENTRE",
@@ -2994,10 +2994,10 @@
   {
     "Name": "PINJARRA",
     "PostCode": "6208",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 12:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 12:00",
+    "IsInterrupted": true
   },
   {
     "Name": "POINT GREY",
@@ -3010,10 +3010,10 @@
   {
     "Name": "RAVENSWOOD",
     "PostCode": "6208",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 12:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 12:00",
+    "IsInterrupted": true
   },
   {
     "Name": "SOUTH YUNDERUP",
@@ -3122,10 +3122,10 @@
   {
     "Name": "SAN REMO",
     "PostCode": "6210",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 12:30",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 12:30",
+    "IsInterrupted": true
   },
   {
     "Name": "SILVER SANDS",
@@ -3322,10 +3322,10 @@
   {
     "Name": "HARVEY",
     "PostCode": "6220",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 12:30",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 12:30",
+    "IsInterrupted": true
   },
   {
     "Name": "HOFFMAN",
@@ -3346,10 +3346,10 @@
   {
     "Name": "UDUC",
     "PostCode": "6220",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 12:30",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 12:30",
+    "IsInterrupted": true
   },
   {
     "Name": "WARAWARRUP",
@@ -3434,10 +3434,10 @@
   {
     "Name": "COLLIE",
     "PostCode": "6225",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 14:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 14:00",
+    "IsInterrupted": true
   },
   {
     "Name": "COLLIE BURN",
@@ -3882,18 +3882,18 @@
   {
     "Name": "CHARLEY CREEK",
     "PostCode": "6239",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 13:30",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 13:30",
+    "IsInterrupted": true
   },
   {
     "Name": "DONNYBROOK",
     "PostCode": "6239",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 13:30",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 13:30",
+    "IsInterrupted": true
   },
   {
     "Name": "GLEN MERVYN",
@@ -4594,10 +4594,10 @@
   {
     "Name": "NANNUP",
     "PostCode": "6275",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 13:30",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 13:30",
+    "IsInterrupted": true
   },
   {
     "Name": "SCOTT RIVER EAST",
@@ -4754,10 +4754,10 @@
   {
     "Name": "LUDLOW",
     "PostCode": "6280",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 13:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 13:00",
+    "IsInterrupted": true
   },
   {
     "Name": "MARYBROOK",
@@ -5538,10 +5538,10 @@
   {
     "Name": "WEST PINGELLY",
     "PostCode": "6308",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 15:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 15:00",
+    "IsInterrupted": true
   },
   {
     "Name": "EAST POPANYINNING",
@@ -5730,10 +5730,10 @@
   {
     "Name": "BALLAYING",
     "PostCode": "6315",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 13:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 13:00",
+    "IsInterrupted": true
   },
   {
     "Name": "CANCANNING",
@@ -5802,18 +5802,18 @@
   {
     "Name": "WAGIN",
     "PostCode": "6315",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 13:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 13:00",
+    "IsInterrupted": true
   },
   {
     "Name": "WEDGECARRUP",
     "PostCode": "6315",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 13:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 13:00",
+    "IsInterrupted": true
   },
   {
     "Name": "BOYERINE",
@@ -6418,10 +6418,10 @@
   {
     "Name": "MARBELUP",
     "PostCode": "6330",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 12:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 12:00",
+    "IsInterrupted": true
   },
   {
     "Name": "MCKAIL",
@@ -6858,10 +6858,10 @@
   {
     "Name": "GAIRDNER",
     "PostCode": "6337",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 11:30",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 11:30",
+    "IsInterrupted": true
   },
   {
     "Name": "JACUP",
@@ -7802,10 +7802,10 @@
   {
     "Name": "BEAUFORT RIVER",
     "PostCode": "6394",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 13:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 13:00",
+    "IsInterrupted": true
   },
   {
     "Name": "BOILUP",
@@ -9610,18 +9610,18 @@
   {
     "Name": "ORANGE SPRINGS",
     "PostCode": "6503",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 14:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 14:00",
+    "IsInterrupted": true
   },
   {
     "Name": "RED GULLY",
     "PostCode": "6503",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 14:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 14:00",
+    "IsInterrupted": true
   },
   {
     "Name": "WANERIE",
@@ -9658,10 +9658,10 @@
   {
     "Name": "MOGUMBER",
     "PostCode": "6506",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 14:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 14:00",
+    "IsInterrupted": true
   },
   {
     "Name": "CATABY",
@@ -9698,10 +9698,10 @@
   {
     "Name": "REGANS FORD",
     "PostCode": "6507",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 14:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 14:00",
+    "IsInterrupted": true
   },
   {
     "Name": "YATHROO",
@@ -10178,10 +10178,10 @@
   {
     "Name": "MOUNT HILL",
     "PostCode": "6528",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 14:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 14:00",
+    "IsInterrupted": true
   },
   {
     "Name": "SOUTH GREENOUGH",
@@ -10194,10 +10194,10 @@
   {
     "Name": "WALKAWAY",
     "PostCode": "6528",
-    "Details": "Estimated Restoration: Unknown",
-    "Summary": "Service Down",
-    "RestorationTime": "Unknown",
-    "IsInterrupted": true
+    "Details": "No known interruptions",
+    "Summary": "No Interruptions",
+    "RestorationTime": "N/A",
+    "IsInterrupted": false
   },
   {
     "Name": "BEACHLANDS",
@@ -11010,18 +11010,18 @@
   {
     "Name": "DUMBARTON",
     "PostCode": "6566",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 12:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 12:00",
+    "IsInterrupted": true
   },
   {
     "Name": "HODDYS WELL",
     "PostCode": "6566",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 12:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 12:00",
+    "IsInterrupted": true
   },
   {
     "Name": "KATRINE",
@@ -11042,10 +11042,10 @@
   {
     "Name": "TOODYAY",
     "PostCode": "6566",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 13/06/2013 12:00",
+    "Summary": "Service Down",
+    "RestorationTime": "13/06/2013 12:00",
+    "IsInterrupted": true
   },
   {
     "Name": "WEST TOODYAY",
