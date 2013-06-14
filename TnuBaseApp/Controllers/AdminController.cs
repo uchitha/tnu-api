@@ -22,7 +22,7 @@ namespace TnuBaseApp.Controllers
             return View();
         }
 
-        public async Task<ActionResult> LoadPostCodeDataAsync()
+        public ActionResult LoadPostCodeData()
         {
             var fetcher = new PostCodeFetcher();
             var start = int.Parse(ConfigurationManager.AppSettings["startPostCode"]);
@@ -44,10 +44,12 @@ namespace TnuBaseApp.Controllers
             var fetcher = new PowerInterruptionFetcher();
             var postCodeFilePath = HttpContext.Server.MapPath("~/App_Data/" + AppConstants.PostCodeFile);
             var interruptionFilePath = HttpContext.Server.MapPath("~/App_Data/" + AppConstants.InterruptionInfoFile);
+            var currentInterruptionsInfoFilePath = HttpContext.Server.MapPath("~/App_Data/" + AppConstants.CurrentInterruptionInfoFile);
 
             ThreadPool.QueueUserWorkItem(s =>
             {
                 var interruptionDataAsJson = fetcher.FetchInterruptions(postCodeFilePath).Result;
+                fetcher.UpdateInterruptionInfo(interruptionDataAsJson, interruptionFilePath,currentInterruptionsInfoFilePath);
             });
 
             ViewBag.Message = "Interruption update triggered";
