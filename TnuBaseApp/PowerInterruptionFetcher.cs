@@ -7,6 +7,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
 using TnuBaseApp.Controllers;
+using TnuBaseApp.Models;
 
 namespace TnuBaseApp
 {
@@ -102,14 +103,24 @@ namespace TnuBaseApp
             return info.Count();
         }
 
-      
 
-        public List<JToken> FetchCurrentIntteruptions(string currentInterruptionsInfoFilePath)
+
+        public List<InterruptionInfo> FetchCurrentIntteruptions(string currentInterruptionsInfoFilePath)
         {
             var interruptionInfo = File.ReadAllText(currentInterruptionsInfoFilePath);
-            var locations = (JArray)JsonConvert.DeserializeObject(interruptionInfo);
+            var locationsJson = (JArray)JsonConvert.DeserializeObject(interruptionInfo);
+            var list = new List<InterruptionInfo>();
 
-            return locations.ToList();
+            foreach (var token in locationsJson)
+            {
+                var instance = new InterruptionInfo();
+                instance.Name = token.Value<string>("Name");
+                instance.PostCode = token.Value<string>("PostCode");
+                instance.Details = token.Value<string>("Details");
+                list.Add(instance);
+            }
+            
+            return list;
         } 
     }
 }

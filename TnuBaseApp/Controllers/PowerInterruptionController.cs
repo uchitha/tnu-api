@@ -21,25 +21,35 @@ namespace TnuBaseApp.Controllers
 
         public IEnumerable<InterruptionInfo> Get()
         {
-            var interruptionContent = File.ReadAllText(HttpContext.Current.Server.MapPath(InterruptionInfoFile));
-            var list = JsonConvert.DeserializeObject<List<InterruptionInfo>>(interruptionContent);
-
-            return list;
+                var interruptionContent = File.ReadAllText(HttpContext.Current.Server.MapPath(InterruptionInfoFile));
+                var list = JsonConvert.DeserializeObject<List<InterruptionInfo>>(interruptionContent);
+                return list;
         }
 
-        public InterruptionInfo Get(string suburb)
+        public IEnumerable<InterruptionInfo> Get(string suburb)
         {
-            var interruptionContent = File.ReadAllText(HttpContext.Current.Server.MapPath(InterruptionInfoFile));
-            var totalJson = JsonConvert.DeserializeObject<List<InterruptionInfo>>(interruptionContent);
-            var interruption = totalJson.FirstOrDefault(i => i.Name.ToUpperInvariant().Equals(suburb.ToUpperInvariant()));
-            return interruption;
-        }
 
-        public IEnumerable<InterruptionInfo> Get(int postcode)
-        {
-            var interruptionContent = File.ReadAllText(HttpContext.Current.Server.MapPath(InterruptionInfoFile));
-            var list = JsonConvert.DeserializeObject<List<InterruptionInfo>>(interruptionContent).FindAll(i => i.PostCode.Equals(postcode.ToString())).OrderByDescending(info => info.IsInterrupted);
-            return list;
+            if (suburb.ToLowerInvariant().Equals("servicedown"))
+            {
+                var interruptionContent = File.ReadAllText(HttpContext.Current.Server.MapPath(CurrentInterruptionInfoFile));
+                var list = JsonConvert.DeserializeObject<List<InterruptionInfo>>(interruptionContent);
+                return list;
+            }
+
+            int postcode;
+            if (int.TryParse(suburb, out postcode))
+            {
+                var interruptionContent = File.ReadAllText(HttpContext.Current.Server.MapPath(InterruptionInfoFile));
+                var list = JsonConvert.DeserializeObject<List<InterruptionInfo>>(interruptionContent).FindAll(i => i.PostCode.Equals(postcode.ToString())).OrderByDescending(info => info.IsInterrupted);
+                return list;
+            }
+            else
+            {
+                var interruptionContent = File.ReadAllText(HttpContext.Current.Server.MapPath(InterruptionInfoFile));
+                var list = JsonConvert.DeserializeObject<List<InterruptionInfo>>(interruptionContent).FindAll(i => i.Name.ToUpperInvariant().Equals(suburb.ToUpperInvariant())).OrderByDescending(info => info.IsInterrupted);
+                return list; //Generally only 1 element
+            }
+           
         }
 
     }

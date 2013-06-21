@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 using NLog;
+using TnuBaseApp.Models;
 
 namespace TnuBaseApp.Controllers
 {
@@ -61,6 +62,7 @@ namespace TnuBaseApp.Controllers
             return View("Index");
         }
 
+     
         public ActionResult GetDataTimeStamp()
         {
             var postCodeFilePath = HttpContext.Server.MapPath("~/App_Data/" + AppConstants.PostCodeFile);
