@@ -11,12 +11,14 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
+using NLog;
 
 namespace TnuBaseApp.Controllers
 {
     public class AdminController : Controller
     {
-        
+        private static Logger logger = LogManager.GetCurrentClassLogger();
+
         public ActionResult Index()
         {
             return View();
@@ -33,8 +35,10 @@ namespace TnuBaseApp.Controllers
                 var postCodeDataAsJson = fetcher.GetPostCodes(start, end); //WA Only
                 var postCodeFilePath = HttpContext.Server.MapPath("~/App_Data/" + AppConstants.PostCodeFile);
                 var count = fetcher.UpdatePostCodeInfo(postCodeDataAsJson, postCodeFilePath);
-            });
+                logger.Info("COMPLETED: Postcode information finished loading from AusPost");
 
+            });
+            logger.Info("START: Postcode information started loading from AusPost");
             ViewBag.Message = "Postcode update triggered (Will take around 20 mins to complete)";
             return View("Index");
         }
@@ -50,8 +54,9 @@ namespace TnuBaseApp.Controllers
             {
                 var interruptionDataAsJson = fetcher.FetchInterruptions(postCodeFilePath).Result;
                 fetcher.UpdateInterruptionInfo(interruptionDataAsJson, interruptionFilePath,currentInterruptionsInfoFilePath);
+                logger.Info("COMPLETED: Interruption information finished loading from Western Power");
             });
-
+            logger.Info("START: Interruption information started loading from Western Power");
             ViewBag.Message = "Interruption update triggered";
             return View("Index");
         }
