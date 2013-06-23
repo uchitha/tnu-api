@@ -17,7 +17,7 @@ Administration
 3. Get the last time data was updated - http://tnu.apphb.com/Admin/GetDataTimeStamp
 
 
-QUerying
+Querying
 ==============
 
 1. Search (post code or suburb name) - http://tnu.apphb.com/api/powerinterruption?suburb={postcode or 
