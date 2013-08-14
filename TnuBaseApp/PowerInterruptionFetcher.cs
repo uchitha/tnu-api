@@ -45,6 +45,23 @@ namespace TnuBaseApp
             return interruptionList;
         }
 
+        public List<InterruptionInfo> FetchCurrentIntteruptions(string currentInterruptionsInfoFilePath)
+        {
+            var interruptionInfo = File.ReadAllText(currentInterruptionsInfoFilePath);
+            var locationsJson = (JArray)JsonConvert.DeserializeObject(interruptionInfo);
+            var list = new List<InterruptionInfo>();
+
+            foreach (var token in locationsJson)
+            {
+                var instance = new InterruptionInfo();
+                instance.Name = token.Value<string>("Name");
+                instance.PostCode = token.Value<string>("PostCode");
+                instance.Details = token.Value<string>("Details");
+                list.Add(instance);
+            }
+
+            return list;
+        } 
 
         public int UpdateInterruptionInfo(JArray info, string interruptionInfoFilePath,string currentInterruptionsInfoFilePath)
         {
@@ -72,6 +89,12 @@ namespace TnuBaseApp
 
             return info.Count();
 
+        }
+
+        public DateTime FetchLastUpdatedTimeStamp(string interruptionFilePath)
+        {
+            var interruptionUpdateTime = new FileInfo(interruptionFilePath).LastWriteTime.AddHours(8); //TODO write extension method
+            return interruptionUpdateTime;
         }
 
         private int UpdateCurrentInterruptionInfo(string interruptionInfoFilePath,string currentInterruptionsInfoFilePath)
@@ -104,23 +127,6 @@ namespace TnuBaseApp
         }
 
 
-
-        public List<InterruptionInfo> FetchCurrentIntteruptions(string currentInterruptionsInfoFilePath)
-        {
-            var interruptionInfo = File.ReadAllText(currentInterruptionsInfoFilePath);
-            var locationsJson = (JArray)JsonConvert.DeserializeObject(interruptionInfo);
-            var list = new List<InterruptionInfo>();
-
-            foreach (var token in locationsJson)
-            {
-                var instance = new InterruptionInfo();
-                instance.Name = token.Value<string>("Name");
-                instance.PostCode = token.Value<string>("PostCode");
-                instance.Details = token.Value<string>("Details");
-                list.Add(instance);
-            }
-            
-            return list;
-        } 
+      
     }
 }

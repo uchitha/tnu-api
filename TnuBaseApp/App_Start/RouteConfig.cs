@@ -20,11 +20,18 @@ namespace TnuBaseApp
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
 
-            routes.MapHttpRoute(
-                name: "DefaultHttpApi",
-                routeTemplate: "api/{controller}/{id}/{format}",
-                defaults: new { id = RouteParameter.Optional, format = RouteParameter.Optional }
-            );
+
+           
+
+           // routes.MapHttpRoute(
+           //    name: "DefaultHttpApi",
+           //    routeTemplate: "api/{controller}/{id}/{format}",
+           //    defaults: new { id = new { id = RouteParameter.Optional }, format = RouteParameter.Optional },
+           //    constraints: new { id = @"^(GetLastUpdatedTimeStamp)" }
+           //);
+
+
+
         }
     }
 }

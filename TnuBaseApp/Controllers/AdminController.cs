@@ -75,12 +75,9 @@ namespace TnuBaseApp.Controllers
 
         private Dictionary<string, DateTime> GetLastModifiedTimes(string postCodeFile, string interruptionFile)
         {
-            var postCodeUpdateTime = new FileInfo(postCodeFile).LastWriteTime;
-            var interruptionUpdateTime = new FileInfo(interruptionFile).LastWriteTime;
-
             var details = new Dictionary<string, DateTime>();
-            details.Add("postcode", postCodeUpdateTime);
-            details.Add("interruptions", interruptionUpdateTime);
+            details.Add("postcode", new PostCodeFetcher().FetchLastUpdatedTimeStamp(postCodeFile));
+            details.Add("interruptions",  new PowerInterruptionFetcher().FetchLastUpdatedTimeStamp(interruptionFile));
 
             return details;
 

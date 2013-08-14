@@ -3,6 +3,7 @@ using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
+using System.IO;
 using System.Linq;
 using System.Web;
 using TnuBaseApp.Controllers;
@@ -38,6 +39,12 @@ namespace TnuBaseApp
             var data = JsonConvert.SerializeObject(postCodeInfo, Formatting.Indented, new JsonSerializerSettings());
             System.IO.File.WriteAllText(filePath, data);
             return postCodeInfo.Count;
+        }
+
+        public DateTime FetchLastUpdatedTimeStamp(string postCodeFilePath)
+        {
+            var postCodeUpdateTime = new FileInfo(postCodeFilePath).LastWriteTime.AddHours(8); //TODO write extension method
+            return postCodeUpdateTime;
         }
 
 

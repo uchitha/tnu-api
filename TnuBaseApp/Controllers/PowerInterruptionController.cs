@@ -26,10 +26,10 @@ namespace TnuBaseApp.Controllers
                 return list;
         }
 
-        public IEnumerable<InterruptionInfo> Get(string suburb)
+        public IEnumerable<InterruptionInfo> Get(string id)
         {
 
-            if (suburb.ToLowerInvariant().Equals("servicedown"))
+            if (id.ToLowerInvariant().Equals("servicedown"))
             {
                 var interruptionContent = File.ReadAllText(HttpContext.Current.Server.MapPath(CurrentInterruptionInfoFile));
                 var list = JsonConvert.DeserializeObject<List<InterruptionInfo>>(interruptionContent);
@@ -37,7 +37,7 @@ namespace TnuBaseApp.Controllers
             }
 
             int postcode;
-            if (int.TryParse(suburb, out postcode))
+            if (int.TryParse(id, out postcode))
             {
                 var interruptionContent = File.ReadAllText(HttpContext.Current.Server.MapPath(InterruptionInfoFile));
                 var list = JsonConvert.DeserializeObject<List<InterruptionInfo>>(interruptionContent).FindAll(i => i.PostCode.Equals(postcode.ToString())).OrderByDescending(info => info.IsInterrupted);
@@ -46,10 +46,17 @@ namespace TnuBaseApp.Controllers
             else
             {
                 var interruptionContent = File.ReadAllText(HttpContext.Current.Server.MapPath(InterruptionInfoFile));
-                var list = JsonConvert.DeserializeObject<List<InterruptionInfo>>(interruptionContent).FindAll(i => i.Name.ToUpperInvariant().Equals(suburb.ToUpperInvariant())).OrderByDescending(info => info.IsInterrupted);
+                var list = JsonConvert.DeserializeObject<List<InterruptionInfo>>(interruptionContent).FindAll(i => i.Name.ToUpperInvariant().Equals(id.ToUpperInvariant())).OrderByDescending(info => info.IsInterrupted);
                 return list; //Generally only 1 element
             }
            
+        }
+
+        [HttpGet]
+        public DateTime GetLastUpdatedTimeStamp()
+        {
+            var f = new PowerInterruptionFetcher();
+            return f.FetchLastUpdatedTimeStamp(HttpContext.Current.Server.MapPath(CurrentInterruptionInfoFile));
         }
 
     }
