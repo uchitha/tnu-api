@@ -20,11 +20,12 @@ Administration
 Querying
 ==============
 
-1. Search (post code or suburb name) - http://tnu.apphb.com/api/powerinterruption?suburb={postcode or 
-
-suburb}
-e.g http://tnu.apphb.com/api/powerinterruption?suburb=6102
-    http://tnu.apphb.com/api/powerinterruption?suburb=Bentley
+1. Search (post code or suburb name) - http://tnu.apphb.com/api/powerinterruption/{postcode or suburb}
+e.g http://tnu.apphb.com/api/powerinterruption/6102
+    http://tnu.apphb.com/api/powerinterruption/Bentley
 
 2. Search for suburbs with on going power interruptions
-http://tnu.apphb.com/api/powerinterruption?suburb=servicedown
+http://tnu.apphb.com/api/powerinterruption/servicedown
+
+3. Get the last modified timestamp
+http://tnu.apphb.com/api/powerinterruption/GetLastUpdatedTimeStamp
