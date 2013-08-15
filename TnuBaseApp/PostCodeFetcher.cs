@@ -43,7 +43,7 @@ namespace TnuBaseApp
 
         public DateTime FetchLastUpdatedTimeStamp(string postCodeFilePath)
         {
-            var postCodeUpdateTime = new FileInfo(postCodeFilePath).LastWriteTime.AddHours(8); //TODO write extension method
+            var postCodeUpdateTime = new FileInfo(postCodeFilePath).LastWriteTime;
             return postCodeUpdateTime;
         }
 

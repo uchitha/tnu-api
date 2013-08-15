@@ -9,20 +9,21 @@ namespace TnuBaseApp
     {
         public static void Register(HttpConfiguration config)
         {
-            config.Routes.MapHttpRoute(
-              name: "DefaultHttpApiWithAction",
-              routeTemplate: "api/{controller}/{action}",
-              defaults: new { controller = "Home" },
-              constraints: new { action = "GetLastUpdatedTimeStamp" }
-              );
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",
-                defaults: new { id = RouteParameter.Optional }
+                defaults: new { id = "all" },
+                constraints: new { id = "(?!LastUpdatedTimeStamp).*" }
+
             );
 
-          
+            config.Routes.MapHttpRoute(
+                name: "LastUpdate",
+                routeTemplate: "api/{controller}/{action}/",
+                defaults: new { controller = "PowerInterruption", action = "LastUpdatedTimeStamp" },
+                constraints : new { action = "LastUpdatedTimeStamp"}
+                );
 
 
             // Uncomment the following line of code to enable query support for actions with an IQueryable or IQueryable<T> return type.

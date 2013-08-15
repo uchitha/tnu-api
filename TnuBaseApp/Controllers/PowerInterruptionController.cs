@@ -19,12 +19,6 @@ namespace TnuBaseApp.Controllers
         private const string InterruptionInfoFile = @"~\App_Data\westernpower_interruptions.txt";
         private const string CurrentInterruptionInfoFile = @"~\App_Data\westernpower_current_interruptions.txt";
 
-        public IEnumerable<InterruptionInfo> Get()
-        {
-                var interruptionContent = File.ReadAllText(HttpContext.Current.Server.MapPath(InterruptionInfoFile));
-                var list = JsonConvert.DeserializeObject<List<InterruptionInfo>>(interruptionContent);
-                return list;
-        }
 
         public IEnumerable<InterruptionInfo> Get(string id)
         {
@@ -32,6 +26,13 @@ namespace TnuBaseApp.Controllers
             if (id.ToLowerInvariant().Equals("servicedown"))
             {
                 var interruptionContent = File.ReadAllText(HttpContext.Current.Server.MapPath(CurrentInterruptionInfoFile));
+                var list = JsonConvert.DeserializeObject<List<InterruptionInfo>>(interruptionContent);
+                return list;
+            }
+
+            if (id.ToLowerInvariant().Equals("all"))
+            {
+                var interruptionContent = File.ReadAllText(HttpContext.Current.Server.MapPath(InterruptionInfoFile));
                 var list = JsonConvert.DeserializeObject<List<InterruptionInfo>>(interruptionContent);
                 return list;
             }
@@ -53,7 +54,8 @@ namespace TnuBaseApp.Controllers
         }
 
         [HttpGet]
-        public DateTime GetLastUpdatedTimeStamp()
+        [ActionName("LastUpdatedTimeStamp")]
+        public DateTime LastUpdatedTimeStamp()
         {
             var f = new PowerInterruptionFetcher();
             return f.FetchLastUpdatedTimeStamp(HttpContext.Current.Server.MapPath(CurrentInterruptionInfoFile));

@@ -93,7 +93,7 @@ namespace TnuBaseApp
 
         public DateTime FetchLastUpdatedTimeStamp(string interruptionFilePath)
         {
-            var interruptionUpdateTime = new FileInfo(interruptionFilePath).LastWriteTime.AddHours(8); //TODO write extension method
+            var interruptionUpdateTime = new FileInfo(interruptionFilePath).LastWriteTime; 
             return interruptionUpdateTime;
         }
 
