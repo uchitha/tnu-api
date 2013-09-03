@@ -27,5 +27,8 @@ e.g http://tnu.apphb.com/api/powerinterruption/6102
 2. Search for suburbs with on going power interruptions
 http://tnu.apphb.com/api/powerinterruption/servicedown
 
-3. Get the last modified timestamp
-http://tnu.apphb.com/api/powerinterruption/GetLastUpdatedTimeStamp
+3. Get all power interruption data
+http://tnu.apphb.com/api/powerinterruption/
+
+4. Get the last modified timestamp
+http://tnu.apphb.com/api/powerinterruption/LastUpdatedTimeStamp
