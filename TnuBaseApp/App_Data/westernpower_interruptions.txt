@@ -2266,18 +2266,18 @@
   {
     "Name": "APPLECROSS",
     "PostCode": "6153",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 04/09/2013 05:00",
+    "Summary": "Service Down",
+    "RestorationTime": "04/09/2013 05:00",
+    "IsInterrupted": true
   },
   {
     "Name": "ARDROSS",
     "PostCode": "6153",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 04/09/2013 05:00",
+    "Summary": "Service Down",
+    "RestorationTime": "04/09/2013 05:00",
+    "IsInterrupted": true
   },
   {
     "Name": "BRENTWOOD",
@@ -6178,10 +6178,10 @@
   {
     "Name": "GNOWELLEN",
     "PostCode": "6328",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: Unknown",
+    "Summary": "Service Down",
+    "RestorationTime": "Unknown",
+    "IsInterrupted": true
   },
   {
     "Name": "GREEN RANGE",
@@ -6906,10 +6906,10 @@
   {
     "Name": "BOXWOOD HILL",
     "PostCode": "6338",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: Unknown",
+    "Summary": "Service Down",
+    "RestorationTime": "Unknown",
+    "IsInterrupted": true
   },
   {
     "Name": "BREMER BAY",
@@ -6930,10 +6930,10 @@
   {
     "Name": "MONJEBUP",
     "PostCode": "6338",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: Unknown",
+    "Summary": "Service Down",
+    "RestorationTime": "Unknown",
+    "IsInterrupted": true
   },
   {
     "Name": "NALYERLUP",
@@ -9202,10 +9202,10 @@
   {
     "Name": "BARBALIN",
     "PostCode": "6479",
-    "Details": "No known interruptions",
-    "Summary": "No Interruptions",
-    "RestorationTime": "N/A",
-    "IsInterrupted": false
+    "Details": "Estimated Restoration: 04/09/2013 05:00",
+    "Summary": "Service Down",
+    "RestorationTime": "04/09/2013 05:00",
+    "IsInterrupted": true
   },
   {
     "Name": "BONNIE ROCK",

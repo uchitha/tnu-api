@@ -45,6 +45,27 @@ namespace TnuBaseApp
             return interruptionList;
         }
 
+        public async Task<IEnumerable<InterruptionInfo>> GetInterruptionFromWp(string location)
+        {
+            var scraper = new WpPiScraper(location);
+
+            try
+            {
+                var interruptionsInfoFromWp = await scraper.GetInteruptionData().ConfigureAwait(false);
+                if (interruptionsInfoFromWp.Any())
+                {
+                    return interruptionsInfoFromWp.ToList();
+                }
+                return new List<InterruptionInfo>();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+
+        }
+
+
         public List<InterruptionInfo> FetchCurrentIntteruptions(string currentInterruptionsInfoFilePath)
         {
             var interruptionInfo = File.ReadAllText(currentInterruptionsInfoFilePath);
@@ -91,6 +112,7 @@ namespace TnuBaseApp
 
         }
 
+   
         public DateTime FetchLastUpdatedTimeStamp(string interruptionFilePath)
         {
             var interruptionUpdateTime = new FileInfo(interruptionFilePath).LastWriteTime; 

@@ -25,7 +25,7 @@ namespace TnuBaseApp
         public async Task<IQueryable<InterruptionInfo>> GetInteruptionData()
         {
             var doc = new HtmlDocument();
-            var html = await LoadPage();
+            var html = await LoadPage().ConfigureAwait(false);
 
             doc.LoadHtml(html);
 
@@ -56,11 +56,11 @@ namespace TnuBaseApp
         {
             var content = new MemoryStream();
             var request = WebRequest.Create(_url);
-            using (WebResponse response = await request.GetResponseAsync())
+            using (WebResponse response = await request.GetResponseAsync().ConfigureAwait(false))
             {
                 using (Stream responseStream = response.GetResponseStream())
                 {
-                    await responseStream.CopyToAsync(content);
+                    await responseStream.CopyToAsync(content).ConfigureAwait(false);
                 }
             }
             return System.Text.Encoding.Default.GetString(content.ToArray());
