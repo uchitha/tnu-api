@@ -1,21 +1,5 @@
 [
   {
-    "Name": "APPLECROSS",
-    "PostCode": "6153",
-    "Details": "Estimated Restoration: 04/09/2013 05:00",
-    "Summary": "Service Down",
-    "RestorationTime": "04/09/2013 05:00",
-    "IsInterrupted": true
-  },
-  {
-    "Name": "ARDROSS",
-    "PostCode": "6153",
-    "Details": "Estimated Restoration: 04/09/2013 05:00",
-    "Summary": "Service Down",
-    "RestorationTime": "04/09/2013 05:00",
-    "IsInterrupted": true
-  },
-  {
     "Name": "GNOWELLEN",
     "PostCode": "6328",
     "Details": "Estimated Restoration: Unknown",

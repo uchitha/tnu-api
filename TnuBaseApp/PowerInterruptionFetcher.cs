@@ -45,8 +45,32 @@ namespace TnuBaseApp
             return interruptionList;
         }
 
+        public async Task<IEnumerable<InterruptionInfo>> FetchInterruptions(List<string> locations)
+        {
+            var interruptionList = new List<InterruptionInfo>();
+
+            foreach (var location in locations)
+            {
+                var scraper = new WpPiScraper(location);
+
+                var interruptionsInfoForlocation = await scraper.GetInteruptionData().ConfigureAwait(false);
+
+                if (interruptionsInfoForlocation.Any())
+                {
+                    var interruptionInfo = interruptionsInfoForlocation.ToList();
+                    foreach (var interruption in interruptionInfo)
+                    {
+                        interruptionList.Add(interruption);
+                    }
+                }
+            }
+
+            return interruptionList;
+        }
+
         public async Task<IEnumerable<InterruptionInfo>> GetInterruptionFromWp(string location)
         {
+
             var scraper = new WpPiScraper(location);
 
             try

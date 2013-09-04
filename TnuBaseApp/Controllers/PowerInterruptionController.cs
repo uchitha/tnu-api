@@ -75,7 +75,15 @@ namespace TnuBaseApp.Controllers
         [ActionName("RealTime")]
         public IEnumerable<InterruptionInfo> RealTime(string id)
         {
-            return GetInterruptions(id);
+            var latestList = GetInterruptions(id);
+            var interruptionFilePath = HttpContext.Current.Server.MapPath(InterruptionInfoFile);
+            var currInterruptionFilePath = HttpContext.Current.Server.MapPath(CurrentInterruptionInfoFile);
+            ThreadPool.QueueUserWorkItem((s) =>
+            {
+                UpdateInterruptionsWithLatest(latestList,interruptionFilePath,currInterruptionFilePath);
+            });
+
+            return latestList;
         }
 
         private IEnumerable<InterruptionInfo> GetInterruptions(string location)
@@ -84,7 +92,24 @@ namespace TnuBaseApp.Controllers
             var result = pf.GetInterruptionFromWp(location).Result;
             logger.Info("COMPLETED: Interruption information finished loading from Western Power");
             return result;
-        
+        }
+
+        private void UpdateInterruptionsWithLatest(IEnumerable<InterruptionInfo> newList, string interruptionFilePath, string currInterruptionFilePath)
+        {
+            var interruptionContent = File.ReadAllText(interruptionFilePath);
+            var list = JsonConvert.DeserializeObject<List<InterruptionInfo>>(interruptionContent);
+
+            foreach (var item in newList)
+            {
+                var existing = list.Find(i => i.Name.Equals(item.Name));
+                existing.Details = item.Details;
+            }
+            
+            var interruptionDataAsJson = JsonConvert.SerializeObject(list);
+            JArray interruptionList = JArray.Parse(interruptionDataAsJson);
+            var fetcher = new PowerInterruptionFetcher();
+
+            fetcher.UpdateInterruptionInfo(interruptionList, interruptionFilePath, currInterruptionFilePath);
         }
 
         private bool IsDataStale()
