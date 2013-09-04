@@ -24,14 +24,11 @@ Querying
 e.g http://tnu.apphb.com/api/powerinterruption/6102
     http://tnu.apphb.com/api/powerinterruption/Bentley
 
-2. Real Time Search from Western Power - http://tnu.apphb.com/api/powerinterruption/realtime/{postcode or suburb}
-e.g http://tnu.apphb.com/api/powerinterruption/realtime/6102
-
-3. Search for suburbs with on going power interruptions
+2. Search for suburbs with on going power interruptions
 http://tnu.apphb.com/api/powerinterruption/servicedown
 
-4. Get all power interruption data
+3. Get all power interruption data
 http://tnu.apphb.com/api/powerinterruption/
 
-5. Get the last modified timestamp
+4. Get the last modified timestamp
 http://tnu.apphb.com/api/powerinterruption/LastUpdatedTimeStamp
