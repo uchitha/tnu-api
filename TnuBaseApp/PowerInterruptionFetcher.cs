@@ -140,7 +140,7 @@ namespace TnuBaseApp
         public DateTime FetchLastUpdatedTimeStamp(string interruptionFilePath)
         {
             var interruptionUpdateTime = new FileInfo(interruptionFilePath).LastWriteTime; 
-            return interruptionUpdateTime.AddHours(8); //Convert to GMT+8
+            return interruptionUpdateTime; 
         }
 
   

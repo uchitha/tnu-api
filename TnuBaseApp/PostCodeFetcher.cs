@@ -44,7 +44,7 @@ namespace TnuBaseApp
         public DateTime FetchLastUpdatedTimeStamp(string postCodeFilePath)
         {
             var postCodeUpdateTime = new FileInfo(postCodeFilePath).LastWriteTime;
-            return postCodeUpdateTime.AddHours(8); //Convert to GMT+8
+            return postCodeUpdateTime;
         }
 
 

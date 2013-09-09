@@ -96,11 +96,11 @@ namespace TnuBaseApp.Controllers
             return "Demo mode initiated";
         }
 
-        private Dictionary<string, DateTime> GetLastModifiedTimes(string postCodeFile, string interruptionFile)
+        private Dictionary<string, string> GetLastModifiedTimes(string postCodeFile, string interruptionFile)
         {
-            var details = new Dictionary<string, DateTime>();
-            details.Add("postcode", new PostCodeFetcher().FetchLastUpdatedTimeStamp(postCodeFile));
-            details.Add("interruptions",  new PowerInterruptionFetcher().FetchLastUpdatedTimeStamp(interruptionFile));
+            var details = new Dictionary<string, string>();
+            details.Add("postcode", new PostCodeFetcher().FetchLastUpdatedTimeStamp(postCodeFile).ToString("yyyy-MM-dd HH:mm:ss \"GMT\"zzz"));
+            details.Add("interruptions",  new PowerInterruptionFetcher().FetchLastUpdatedTimeStamp(interruptionFile).ToString("yyyy-MM-dd HH:mm:ss \"GMT\"zzz"));
 
             return details;
 
