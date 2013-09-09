@@ -51,6 +51,15 @@ namespace TnuBaseApp.Controllers
             var interruptionFilePath = HttpContext.Server.MapPath("~/App_Data/" + AppConstants.InterruptionInfoFile);
             var currentInterruptionsInfoFilePath = HttpContext.Server.MapPath("~/App_Data/" + AppConstants.CurrentInterruptionInfoFile);
 
+            var lastUpdateTime = fetcher.FetchLastUpdatedTimeStamp(interruptionFilePath);
+
+            if (lastUpdateTime.AddMinutes(10) > DateTime.Now)
+            {
+                logger.Info("Interruption update not triggered because it's been triggered during last 10 minutes");
+                ViewBag.Message = "Interruption update not triggered because it's been triggered during last 10 minutes";
+                return View("Index");
+            }
+
             ThreadPool.QueueUserWorkItem(s =>
             {
                 var interruptionDataAsJson = fetcher.FetchInterruptions(postCodeFilePath).Result;
@@ -71,6 +80,20 @@ namespace TnuBaseApp.Controllers
             var details = GetLastModifiedTimes(postCodeFilePath, interruptionFilePath);
             ViewBag.Message = string.Format("Post Codes : Last updated on {0}, Interruptions : Last updated on {1}", details["postcode"], details["interruptions"]);
             return View("Index");
+        }
+
+        public string Demo()
+        {
+            var pf = new PowerInterruptionFetcher();
+            var interruptionFilePath = HttpContext.Server.MapPath("~/App_Data/" + AppConstants.InterruptionInfoFile);
+            var currentInterruptionsInfoFilePath = HttpContext.Server.MapPath("~/App_Data/" + AppConstants.CurrentInterruptionInfoFile);
+
+            var currInterruptions = pf.FetchCurrentIntteruptions(interruptionFilePath);
+            if (currInterruptions.Count > 1) return "No need to demo";
+
+            pf.CreateCurrentInterruptionsForDemo(currentInterruptionsInfoFilePath,interruptionFilePath);
+
+            return "Demo mode initiated";
         }
 
         private Dictionary<string, DateTime> GetLastModifiedTimes(string postCodeFile, string interruptionFile)

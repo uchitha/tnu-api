@@ -140,18 +140,19 @@ namespace TnuBaseApp
         public DateTime FetchLastUpdatedTimeStamp(string interruptionFilePath)
         {
             var interruptionUpdateTime = new FileInfo(interruptionFilePath).LastWriteTime; 
-            return interruptionUpdateTime;
+            return interruptionUpdateTime.AddHours(8); //Convert to GMT+8
         }
+
+  
 
         private int UpdateCurrentInterruptionInfo(string interruptionInfoFilePath,string currentInterruptionsInfoFilePath)
         {
             //var interruptionsAsJson = JsonConvert.SerializeObject(info, Formatting.Indented);
 
-
             var interruptionInfo = File.ReadAllText(interruptionInfoFilePath);
             var locations = (JArray)JsonConvert.DeserializeObject(interruptionInfo);
 
-            var info = locations.Where(l => l.Value<bool>("IsInterrupted")).ToList();
+            var info = locations.Where(l => l.Value<bool>("IsInterrupted")).OrderByDescending(i=>i.Value<string>("Name")).ToList();
 
             var parentJson = new JArray();
             foreach (var location in info)
@@ -170,6 +171,30 @@ namespace TnuBaseApp
             var currentIntteruptionInfo = JsonConvert.SerializeObject(parentJson, Formatting.Indented);
             File.WriteAllText(currentInterruptionsInfoFilePath, currentIntteruptionInfo);
             return info.Count();
+        }
+
+        public int CreateCurrentInterruptionsForDemo(string currentInterruptionsInfoFilePath, string interruptionInfoFilePath)
+        {
+            var interruptionInfo = File.ReadAllText(interruptionInfoFilePath);
+            var locations = (List<InterruptionInfo>)JsonConvert.DeserializeObject(interruptionInfo,typeof(List<InterruptionInfo>));
+
+            var choosenOnes = locations.Where(l => l.Name.StartsWith("A"));
+            int count = 0;
+            foreach (var item in choosenOnes)
+            {
+                try
+                {
+                    var restorationTime = DateTime.Now.AddHours(4);
+                    item.Details = "Estimated Restoration: " + restorationTime.ToString("dd/MM/yyyy HH:mm:ss");
+                    count++;
+                    if (count >= 5) return count;
+                }
+                catch (Exception)
+                {
+
+                }
+            }
+            return count;
         }
 
 
