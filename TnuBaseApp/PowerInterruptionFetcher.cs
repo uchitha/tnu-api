@@ -152,7 +152,7 @@ namespace TnuBaseApp
             var interruptionInfo = File.ReadAllText(interruptionInfoFilePath);
             var locations = (JArray)JsonConvert.DeserializeObject(interruptionInfo);
 
-            var info = locations.Where(l => l.Value<bool>("IsInterrupted")).OrderByDescending(i=>i.Value<string>("Name")).ToList();
+            var info = locations.Where(l => l.Value<bool>("IsInterrupted")).OrderBy(i=>i.Value<string>("Name")).ToList();
 
             var parentJson = new JArray();
             foreach (var location in info)

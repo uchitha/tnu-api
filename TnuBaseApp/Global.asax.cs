@@ -23,6 +23,14 @@ namespace TnuBaseApp
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             FormatterConfig.RegisterFormatters(GlobalConfiguration.Configuration.Formatters);
+
+            SetLocalization();
+        }
+
+        private void SetLocalization()
+        {
+            string Lang = "en-AU";
+            System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo(Lang);
         }
 
 
