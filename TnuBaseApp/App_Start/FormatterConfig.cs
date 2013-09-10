@@ -21,6 +21,10 @@ namespace TnuBaseApp
 
             // Insert the JSONP formatter in front of the standard JSON formatter.
             var jsonpFormatter = new JsonpMediaTypeFormatter();
+            jsonpFormatter.SerializerSettings = new JsonSerializerSettings
+            {
+                DateFormatString = "dd/MM/yyyy hh:mm"
+            };
             formatters.Insert(0, jsonpFormatter);
         }
     }
