@@ -38,11 +38,11 @@ namespace TnuBaseApp.Models
         private string GetRestorationTime(string details)
         {
             var restoration = details.Substring(details.IndexOf(':') + 1).Trim(); //Expected Restoration : 20/05/2013 13:00 
-            DateTime restoreTime;
+            /*DateTime restoreTime;
             if (DateTime.TryParse(restoration, out restoreTime))
             {
                 return restoreTime.ToString("dd/MM/yyyy HH:mm");
-            }
+            }*/
             return restoration;
         }
     }
