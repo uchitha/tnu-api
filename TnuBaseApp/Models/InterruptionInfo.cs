@@ -1,7 +1,9 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Globalization;
+
 
 namespace TnuBaseApp.Models
 {
@@ -39,7 +41,9 @@ namespace TnuBaseApp.Models
         {
             var restoration = details.Substring(details.IndexOf(':') + 1).Trim(); //Expected Restoration : 20/05/2013 13:00 
             DateTime restoreTime;
-            if (DateTime.TryParse(restoration, out restoreTime))
+            var culture = CultureInfo.CreateSpecificCulture("en-AU");
+            var styles = DateTimeStyles.None;
+            if (DateTime.TryParse(restoration, culture, styles, out restoreTime))
             {
                 return restoreTime.ToString("dd/MM/yyyy HH:mm");
             }
