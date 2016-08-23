@@ -189,13 +189,16 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\AusPostController.cs" />
+    <Compile Include="Controllers\ContactUsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MailController.cs" />
     <Compile Include="Controllers\PowerInterruptionController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="GlimpseSecurityPolicy.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ContactInfo.cs" />
     <Compile Include="Models\InterruptionInfo.cs" />
     <Compile Include="Models\Order.cs" />
     <Compile Include="PostCodeFetcher.cs" />
