@@ -1,0 +1,5 @@
+D:\Projects\Tnu-Api\tnu-api\TnuDatabase\bin\Debug\TnuDatabase.dacpac
+D:\Projects\Tnu-Api\tnu-api\TnuDatabase\obj\Debug\TnuDatabase.dll
+D:\Projects\Tnu-Api\tnu-api\TnuDatabase\obj\Debug\TnuDatabase.pdb
+D:\Projects\Tnu-Api\tnu-api\TnuDatabase\bin\Debug\TnuDatabase.dll
+D:\Projects\Tnu-Api\tnu-api\TnuDatabase\bin\Debug\TnuDatabase.pdb

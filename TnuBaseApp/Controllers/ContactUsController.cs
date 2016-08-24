@@ -2,7 +2,7 @@
 using NLog;
 using TnuBaseApp.Models;
 
-namespace DataProviderToClient.Controllers
+namespace TnuBaseApp.Controllers
 {
     public class ContactUsController : ApiController
     {

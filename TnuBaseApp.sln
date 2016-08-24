@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2012 for Web
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TnuBaseApp", "TnuBaseApp\TnuBaseApp.csproj", "{95BBF098-A4DC-46B0-A8C3-01F17E1AF2B0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PerthPi-Html5", "PerthPi-Html5", "{90A65EC1-0FF8-41E4-9945-9F2A9AA37995}"
@@ -28,6 +30,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{0590FC
 		..\PerthPi-Html5\images\indefinite-bg.gif = ..\PerthPi-Html5\images\indefinite-bg.gif
 	EndProjectSection
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TnuDatabase", "TnuDatabase\TnuDatabase.sqlproj", "{C810B917-E8B6-4859-86F7-C4AD89FB73F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +42,12 @@ Global
 		{95BBF098-A4DC-46B0-A8C3-01F17E1AF2B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95BBF098-A4DC-46B0-A8C3-01F17E1AF2B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95BBF098-A4DC-46B0-A8C3-01F17E1AF2B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C810B917-E8B6-4859-86F7-C4AD89FB73F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C810B917-E8B6-4859-86F7-C4AD89FB73F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C810B917-E8B6-4859-86F7-C4AD89FB73F8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C810B917-E8B6-4859-86F7-C4AD89FB73F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C810B917-E8B6-4859-86F7-C4AD89FB73F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C810B917-E8B6-4859-86F7-C4AD89FB73F8}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
